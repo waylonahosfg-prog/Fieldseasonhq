@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getGearForState } from '../data/gearCatalog';
 
 export function getStaticPaths() {
   const files = import.meta.glob('../data/states/*.json', { eager: true, import: 'default' });
@@ -18,52 +19,95 @@ const educationFacts = allLicenseFacts.filter(isEducation);
 const deadlines = state.deadlines || [];
 const sources = state.sources || [];
 const unverified = state.unverifiedItems || [];
-const gear = state.gear || [];
+const gear = getGearForState(state);
+const inlineGear = gear.slice(0, 2);
 const stateFiles = import.meta.glob('../data/states/*.json', { eager: true, import: 'default' });
 const related = Object.values(stateFiles).map((item: any) => item).filter((item: any) => item.slug !== state.slug).sort((a: any, b: any) => a.sortOrder - b.sortOrder);
-const breadcrumb = {
-  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://fieldseasonhq.com/' },
     { '@type': 'ListItem', position: 2, name: state.name, item: canonical }
   ]
 };
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: `${state.name} Hunting Season Dates 2026–2027`,
+  description: state.metaDescription,
+  url: canonical,
+  dateModified: state.verifiedOn,
+  publisher: {
+    '@type': 'Organization',
+    name: 'Field Season HQ',
+    url: 'https://fieldseasonhq.com/'
+  }
+};
 ---
-<BaseLayout title={title} description={state.metaDescription} canonical={canonical} structuredData={breadcrumb}>
+<BaseLayout title={title} description={state.metaDescription} canonical={canonical} structuredData={[breadcrumbSchema, webPageSchema]}>
   <section class="state-hero">
     <div class="container">
       <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">{state.name}</li></ol></nav>
       <span class="eyebrow">{state.year || '2026–27'} season guide</span>
-      <h1>{state.name} Hunting Season Dates 2026</h1>
+      <h1>{state.name} Hunting Season Dates 2026–2027</h1>
       <p>{state.intro}</p>
       <div class="state-meta">
         <span>Official agency: <a href={agency.url} target="_blank" rel="noopener noreferrer">{agency.name} ↗</a></span>
         <span>Last verified: <time datetime={state.verifiedOn}>{state.verifiedOn}</time></span>
       </div>
       <nav class="quick-links" aria-label="On this page">
-        <a href="#seasons">Season dates</a><a href="#license">License steps</a><a href="#education">Hunter education</a><a href="#deadlines">Draw deadlines</a><a href="#gear">Related gear</a>
+        <a href="#seasons">Season dates</a><a href="#license">License steps</a><a href="#education">Hunter ed</a><a href="#deadlines">Draw deadlines</a><a href="#gear">Field gear</a>
       </nav>
     </div>
   </section>
+
   <section class="container content-section" id="seasons">
     <span class="section-kicker">2026–27 dates</span>
     <h2>Hunting seasons by species and method</h2>
-    <p class="lead">These are statewide summaries, including remaining fall and winter opportunities. Check the linked official regulations for your unit, zone, license, legal method and special-season restrictions. Status labels use November 3, 2026—not today’s live conditions.</p>
-    {speciesGroups.map((species: any) => <section class="species-block" aria-label={`${species} season dates`}>
-      <h3>{species}</h3>
-      <div class="table-wrap" role="region" aria-label={`${species} season table; scroll horizontally on small screens`} tabindex="0">
-        <table class="season-table">
-          <thead><tr><th scope="col">Season / method</th><th scope="col">Dates</th><th scope="col">Status on Nov. 3</th><th scope="col">Area & exceptions</th><th scope="col">Source</th></tr></thead>
-          <tbody>{seasonFacts.filter((fact: any) => fact.species === species).map((fact: any) => <tr>
-            <td>{fact.method}</td><td>{fact.dates}</td><td>{fact.status}</td>
-            <td>{fact.scopeAndExceptions}{fact.additionalRule ? ` ${fact.additionalRule}` : ''}</td>
-            <td><a class="source-link" href={fact.sourceUrl} target="_blank" rel="noopener noreferrer">Official source ↗</a><br /><small>Verified {fact.verifiedOn}</small></td>
-          </tr>)}</tbody>
-        </table>
-      </div>
-    </section>)}
+    <p class="lead">Statewide summaries for the 2026–27 hunting season. Always verify exact unit, zone, license, legal method, and special-season rules in the linked official agency regulations before hunting.</p>
+    {speciesGroups.map((species: any, idx: number) => <>
+      <section class="species-block" aria-label={`${species} season dates`}>
+        <div class="species-header">
+          <h3>{species}</h3>
+          <span class="scroll-hint" aria-hidden="true">Swipe table →</span>
+        </div>
+        <div class="table-wrap" role="region" aria-label={`${species} season table; scroll horizontally on small screens`} tabindex="0">
+          <table class="season-table">
+            <thead><tr><th scope="col">Season / method</th><th scope="col">Dates</th><th scope="col">Season window</th><th scope="col">Area &amp; exceptions</th><th scope="col">Source</th></tr></thead>
+            <tbody>{seasonFacts.filter((fact: any) => fact.species === species).map((fact: any) => <tr>
+              <td>{fact.method}</td><td>{fact.dates}</td><td>{fact.status}</td>
+              <td>{fact.scopeAndExceptions}{fact.additionalRule ? ` ${fact.additionalRule}` : ''}</td>
+              <td><a class="source-link" href={fact.sourceUrl} target="_blank" rel="noopener noreferrer">Official source ↗</a><br /><small>Verified {fact.verifiedOn}</small></td>
+            </tr>)}</tbody>
+          </table>
+        </div>
+      </section>
+      {idx === 0 && inlineGear.length > 0 && (
+        <aside class="inline-gear-box" aria-label="Recommended field gear">
+          <div class="inline-gear-head">
+            <span class="inline-gear-badge">Field Checklist</span>
+            <span class="small">As an Amazon Associate I earn from qualifying purchases.</span>
+          </div>
+          <div class="inline-gear-list">
+            {inlineGear.map((item) => (
+              <div class="inline-gear-item">
+                <div>
+                  <strong>{item.name}</strong>
+                  <p>{item.whyUseful}</p>
+                </div>
+                <a href={item.url} rel="sponsored nofollow noopener" target="_blank">Check on Amazon ↗</a>
+              </div>
+            ))}
+          </div>
+        </aside>
+      )}
+    </>)}
     {state.zoneNote && <div class="notice"><p><strong>Unit and zone note:</strong> {state.zoneNote}</p></div>}
   </section>
+
   <section class="container content-section" id="license">
     <span class="section-kicker">Before you go</span><h2>How to get a hunting license</h2>
     <p class="lead">Confirm your hunt, eligibility and required authorizations, then use the official sales channel. Check the listed fees and current availability before purchase.</p>
@@ -72,6 +116,7 @@ const breadcrumb = {
       <a class="fact-source" href={fact.sourceUrl} target="_blank" rel="noopener noreferrer">Official source ↗ <span class="small">(verified {fact.verifiedOn})</span></a>
     </li>)}</ol>
   </section>
+
   <section class="container content-section" id="education">
     <span class="section-kicker">Learn first</span><h2>Hunter education requirements</h2>
     {educationFacts.length ? <ul class="fact-list">{educationFacts.map((fact: any) => <li>
@@ -79,6 +124,7 @@ const breadcrumb = {
       <a class="fact-source" href={fact.sourceUrl} target="_blank" rel="noopener noreferrer">Official source ↗ <span class="small">(verified {fact.verifiedOn})</span></a>
     </li>)}</ul> : <p>Not yet published - check {agency.name}.</p>}
   </section>
+
   <section class="container content-section" id="deadlines">
     <span class="section-kicker">Plan ahead</span><h2>Draw and application deadlines</h2>
     <ul class="fact-list">{deadlines.map((item: any) => <li>
@@ -86,17 +132,18 @@ const breadcrumb = {
       <a class="fact-source" href={item.sourceUrl} target="_blank" rel="noopener noreferrer">Official source ↗ <span class="small">(verified {item.verifiedOn})</span></a>
     </li>)}</ul>
   </section>
+
   <section class="container content-section" id="gear">
-    <span class="section-kicker">Field kit</span><h2>Related gear</h2>
-    {gear.length ? <>
-      <p class="small affiliate-note">As an Amazon Associate I earn from qualifying purchases.</p>
-      <div class="gear-grid">{gear.map((item: any) => <div class="gear-card">
-        <h3>{item.name}</h3><p>{item.whyUseful}</p>
-        <a href={item.url} rel="sponsored nofollow noopener" target="_blank">View on Amazon ↗</a>
-        <p class="small">Amazon listing verified {item.verifiedOn}. Price and availability are shown by Amazon.</p>
-      </div>)}</div>
-    </> : <p class="empty-state">No product links are published until the product and real Amazon ASIN are verified.</p>}
+    <span class="section-kicker">Field kit</span><h2>Recommended {state.name} hunting gear</h2>
+    <p class="small affiliate-note">As an Amazon Associate I earn from qualifying purchases.</p>
+    <div class="gear-grid">{gear.map((item) => <div class="gear-card">
+      <span class="gear-cat">{item.category}</span>
+      <h3>{item.name}</h3><p>{item.whyUseful}</p>
+      <a href={item.url} rel="sponsored nofollow noopener" target="_blank">View on Amazon ↗</a>
+      <p class="small">Amazon listing verified {item.verifiedOn}. Price and availability are shown by Amazon.</p>
+    </div>)}</div>
   </section>
+
   <section class="container content-section" id="sources">
     <span class="section-kicker">Check the rules</span><h2>Official sources</h2>
     <p class="lead">Use the relevant agency publication for your exact hunt. Each season, license and deadline fact above has its own source and verification date.</p>
@@ -106,6 +153,7 @@ const breadcrumb = {
     </li>)}</ul>
     {unverified.length > 0 && <div class="notice"><h3>Items to confirm</h3><ul>{unverified.map((item: string) => <li>{item}</li>)}</ul></div>}
   </section>
+
   <section class="container content-section">
     <div class="callout"><h2>Before you hunt</h2>
       <p>Regulations change. Always confirm with <a href={agency.url} target="_blank" rel="noopener noreferrer">{agency.name}</a> before you hunt.</p>
