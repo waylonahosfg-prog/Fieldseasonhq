@@ -1,0 +1,498 @@
+{
+  "slug": "wisconsin",
+  "name": "Wisconsin",
+  "sortOrder": 5,
+  "year": "Fall 2026–Spring 2027",
+  "verifiedOn": "2026-11-03",
+  "metaDescription": "Review Wisconsin hunting dates for 2026–27, including deer, bear, elk, turkey and waterfowl, with DNR license fees and application deadlines.",
+  "homepageSummary": "Wisconsin DNR dates, zone rules, license costs and application dates.",
+  "intro": "Wisconsin’s Fall 2026–Spring 2027 regulations include clear statewide dates, but deer authorizations, bear units, elk permits, turkey periods and waterfowl zones still matter. Check the current DNR map and regulation for your unit, county and land type before hunting.",
+  "zoneNote": "Deer rules vary by DMU, Metro Subunit, county and land type; bear dates and dog rules vary by Bear Management Zone; elk is limited to selected residents and units; waterfowl dates differ among Northern, Southern, Open Water and Mississippi River zones.",
+  "agency": {
+    "name": "Wisconsin Department of Natural Resources (Wisconsin DNR)",
+    "url": "https://dnr.wisconsin.gov/"
+  },
+  "seasonFacts": [
+    {
+      "species": "White-tailed deer",
+      "method": "Archery and crossbow",
+      "dates": "Sept. 12, 2026–Jan. 3, 2027 statewide; through Jan. 31, 2027 in Metro Subunits and select Farmland counties",
+      "status": "Open on Nov. 3",
+      "scopeAndExceptions": "Extended end dates apply only in specified Metro Subunits and select Farmland counties. Unit, land type and authorization/tag rules apply; hunting hours differ between Northern and Southern regions.",
+      "additionalRule": "Antlerless-only hunts prohibit bucks. Check the 2026 DMU/zone map before using an authorization.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Youth gun",
+      "dates": "Oct. 10–11, 2026",
+      "status": "Completed",
+      "scopeAndExceptions": "For hunters under 16; excludes state parks and non-quota units. Official mentor and equipment rules apply.",
+      "additionalRule": "See the official deer regulations for license, mentor and equipment requirements.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Gun hunt for hunters with disabilities",
+      "dates": "Oct. 3–11, 2026",
+      "status": "Completed",
+      "scopeAndExceptions": "Program-specific eligibility, enrolled properties and rules apply.",
+      "additionalRule": "See the official deer regulations for license, mentor and equipment requirements.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Regular gun",
+      "dates": "Nov. 21–29, 2026 statewide; Nov. 21–Dec. 9 in Metro Subunits only",
+      "status": "Upcoming",
+      "scopeAndExceptions": "Metro Subunits have an extended gun period; the extended dates do not apply statewide.",
+      "additionalRule": "License, harvest authorization and unit rules apply.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Muzzleloader",
+      "dates": "Nov. 30–Dec. 9, 2026",
+      "status": "Upcoming",
+      "scopeAndExceptions": "The statewide date table lists these dates; use the full 2026–27 regulations for unit designations and legal equipment rules.",
+      "additionalRule": "Muzzleloader season is separate from regular gun and archery/crossbow seasons.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Statewide antlerless-only",
+      "dates": "Dec. 10–13, 2026",
+      "status": "Upcoming",
+      "scopeAndExceptions": "Statewide date, but antlerless authorizations must match unit/zone and public/private land category.",
+      "additionalRule": "No bucks may be harvested during this antlerless-only hunt.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Holiday antlerless-only",
+      "dates": "Dec. 24, 2026–Jan. 1, 2027",
+      "status": "Upcoming",
+      "scopeAndExceptions": "Only select Farmland Zone 2 counties/DMUs listed by DNR; not statewide.",
+      "additionalRule": "No bucks; authorization availability is first-come and subject to unit/land type.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Bear license; legal methods depend on zone and period",
+      "dates": "Zones A, B and D: Sept. 9–15, 2026 for bait and other legal non-dog methods; Sept. 16–Oct. 6 for dogs, bait and other legal methods; Oct. 7–13 dogs only. Zones C, E and F: Sept. 9–Oct. 13 for bait and other legal non-dog methods.",
+      "status": "All listed 2026 bear periods ended before Nov. 3",
+      "scopeAndExceptions": "Bear Management Zone-specific. Dogs are permitted only in A/B/D periods listed; dogs are not permitted in C/E/F.",
+      "additionalRule": "Class A bear license is limited-draw/authorized. Bear registration is mandatory by 5 p.m. the day after recovery/tagging.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/bear",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Elk",
+      "method": "Limited-draw bull and antlerless licenses",
+      "dates": "Oct. 17–Dec. 13, 2026 continuous season",
+      "status": "Open on Nov. 3 for selected hunters",
+      "scopeAndExceptions": "Wisconsin residents only; unit-specific authorizations in Northern and Central Elk Management Zones. Northern quota was eight bull licenses; the Central state hunt issued six bull and six antlerless licenses.",
+      "additionalRule": "Selected hunters must complete Wisconsin elk hunter education before obtaining the license; a resident can receive only one elk license in a lifetime.",
+      "sourceUrl": "https://dnr.wisconsin.gov/newsroom/release/131251",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Moose",
+      "method": "No season",
+      "dates": "No 2026 season; Wisconsin DNR lists moose among protected species",
+      "status": "Closed/protected",
+      "scopeAndExceptions": "No unit exception was identified in the official season table.",
+      "additionalRule": "Hunting protected moose is prohibited.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Fall",
+      "dates": "Sept. 12, 2026–Jan. 3, 2027 statewide",
+      "status": "Open on Nov. 3",
+      "scopeAndExceptions": "All seven turkey management zones are open; Northern and Southern regions have different shooting hours.",
+      "additionalRule": "Turkey license, wild turkey stamp and unfilled authorization required while hunting; register harvest by 5 p.m. the following day.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Spring youth",
+      "dates": "Apr. 17–18, 2027",
+      "status": "Future; dates published",
+      "scopeAndExceptions": "Use the official youth eligibility, zone and authorization requirements.",
+      "additionalRule": "Application deadline Dec. 10, 2026; applicants choose two zone/period combinations plus one zone for any period.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Spring regular periods",
+      "dates": "2027 Period A Apr. 21–27; B Apr. 28–May 4; C May 5–11; D May 12–18; E May 19–25. Period F: Not yet published - check Wisconsin DNR (the agency table’s listed start overlaps Period E; confirm before planning).",
+      "status": "Future; dates published",
+      "scopeAndExceptions": "Seven turkey management zones; each authorization is tied to the zone/period awarded or selected.",
+      "additionalRule": "Application deadline Dec. 10, 2026; applicants choose two zone/period combinations plus one zone for any period.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ducks and coots",
+      "method": "Regular waterfowl",
+      "dates": "Northern Duck Zone Sept. 26–Nov. 24, 2026; Southern Zone Oct. 3–11 and Oct. 17–Dec. 6; Open Water Zone Oct. 17–Dec. 15, 2026",
+      "status": "Regular duck/coot seasons are open in all listed zones Nov. 3; youth dates have ended",
+      "scopeAndExceptions": "Northern, Southern and Open Water zones have different dates; coot follows the applicable duck zone.",
+      "additionalRule": "Waterfowl hunters generally need small-game license, state and federal waterfowl stamps and HIP; age 16+ need both stamps.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ducks and coots",
+      "method": "Youth waterfowl",
+      "dates": "Sept. 19–20, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "For hunters 15 and younger; license/stamp requirements are waived on these special dates but HIP remains required.",
+      "additionalRule": "Waterfowl hunters generally need small-game license, state and federal waterfowl stamps and HIP; age 16+ need both stamps.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Geese",
+      "method": "Early and regular dark/light goose",
+      "dates": "Early goose Sept. 1–15. Northern Goose Zone Sept. 16–Dec. 16; Southern Zone Sept. 16–Oct. 11, Oct. 17–Dec. 6 and Dec. 19–Jan. 2, 2027; Mississippi River Zone Oct. 3–11 and Oct. 17–Jan. 5, 2027",
+      "status": "Early segment ended; regular seasons are open or split by zone on Nov. 3",
+      "scopeAndExceptions": "Northern, Southern and Mississippi River zones differ; see exact species and management-unit rules in the DNR table.",
+      "additionalRule": "Early and regular goose permits, small-game license, stamps and HIP may be required by age/species and method.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Teal",
+      "method": "Early teal",
+      "dates": "Sept. 1–9, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Check official species table for exact methods, bag limits and zone rules.",
+      "additionalRule": "HIP and applicable state/federal licenses or stamps apply; youth waterfowl days have a stated license exception.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Rails, snipe and gallinule",
+      "method": "Migratory birds",
+      "dates": "Sept. 1–Nov. 9, 2026",
+      "status": "Open through Nov. 9",
+      "scopeAndExceptions": "Check official species table for exact methods, bag limits and zone rules.",
+      "additionalRule": "HIP and applicable state/federal licenses or stamps apply; youth waterfowl days have a stated license exception.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Dove",
+      "method": "Migratory birds",
+      "dates": "Sept. 1–Nov. 29, 2026",
+      "status": "Open through Nov. 29",
+      "scopeAndExceptions": "Check official species table for exact methods, bag limits and zone rules.",
+      "additionalRule": "HIP and applicable state/federal licenses or stamps apply; youth waterfowl days have a stated license exception.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Woodcock",
+      "method": "Migratory birds",
+      "dates": "Sept. 19–Nov. 2, 2026",
+      "status": "Ended Nov. 2",
+      "scopeAndExceptions": "Check official species table for exact methods, bag limits and zone rules.",
+      "additionalRule": "HIP and applicable state/federal licenses or stamps apply; youth waterfowl days have a stated license exception.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Rabbit",
+      "method": "Small game",
+      "dates": "Northern Zone Sept. 12, 2026–Feb. 28, 2027; Southern Zone Oct. 17 (9 a.m.)–Feb. 28, 2027; Milwaukee County year-round",
+      "status": "Open",
+      "scopeAndExceptions": "Northern/Southern zone dates differ; Milwaukee County is listed separately.",
+      "additionalRule": "Check the DNR regulations for daily limits and methods.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Squirrel",
+      "method": "Small game",
+      "dates": "Sept. 12, 2026–Feb. 28, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Statewide date table; check species-specific rules and bag limits.",
+      "additionalRule": "A small-game license is generally required unless exempt.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pheasant",
+      "method": "Small game",
+      "dates": "Oct. 17, 2026 (9 a.m.)–Jan. 3, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "State date table; check special management-unit and public-land rules.",
+      "additionalRule": "Consult current regulations for license and bag requirements.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ruffed grouse",
+      "method": "Small game",
+      "dates": "Zone A Sept. 12, 2026–Jan. 3, 2027; Zone B Oct. 17–Dec. 8, 2026",
+      "status": "Zone A open; Zone B open through Dec. 8",
+      "scopeAndExceptions": "Two zone dates; confirm the boundary in the current DNR map.",
+      "additionalRule": "Check current bag and method rules.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Hungarian partridge",
+      "method": "Small game",
+      "dates": "Oct. 17, 2026–Jan. 3, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Closed in Clark, Marathon and Taylor counties.",
+      "additionalRule": "Check the county restriction and current bag limit.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Bobwhite quail",
+      "method": "Small game",
+      "dates": "Oct. 17–Dec. 9, 2026",
+      "status": "Open through Dec. 9",
+      "scopeAndExceptions": "State date table; verify county and species-specific limits.",
+      "additionalRule": "Check current regulations before hunting.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Sharp-tailed grouse",
+      "method": "No 2026 season",
+      "dates": "No season listed for 2026",
+      "status": "No 2026 season confirmed in DNR date table",
+      "scopeAndExceptions": "No regional exception was identified.",
+      "additionalRule": "Do not infer an open season; check Wisconsin DNR for future changes.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Crow",
+      "method": "Small game",
+      "dates": "Nov. 21, 2026–March 24, 2027",
+      "status": "Future; opens Nov. 21",
+      "scopeAndExceptions": "State date table; check current bag and method rules.",
+      "additionalRule": "Confirm current DNR regulations before hunting.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Coyote",
+      "method": "Hunting; trapping has separate dates",
+      "dates": "Coyote hunting year-round; trapping Oct. 17, 2026–Feb. 15, 2027",
+      "status": "Hunting open; trapping dates are season-specific",
+      "scopeAndExceptions": "Use separate hunting and trapping regulations.",
+      "additionalRule": "A trapping season is not the same as a hunting season; verify method-specific requirements.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Fox",
+      "method": "Furbearer hunting/trapping",
+      "dates": "Oct. 17, 2026–Feb. 15, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Check the furbearer table for method and species rules.",
+      "additionalRule": "Furbearer regulations apply.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Bobcat",
+      "method": "Limited permit; hunting/trapping rules",
+      "dates": "Oct. 17–Dec. 25, 2026 and Dec. 26, 2026–Jan. 31, 2027",
+      "status": "Open dates depend on permit/authorization",
+      "scopeAndExceptions": "Permit issuance/application rules apply; the bobcat/fisher application deadline is Aug. 1 annually.",
+      "additionalRule": "Confirm permit status, method, harvest reporting and season limits with DNR.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Raccoon",
+      "method": "Furbearer hunting/trapping",
+      "dates": "Resident Oct. 17, 2026–Feb. 15, 2027; nonresident Oct. 31, 2026–Feb. 15, 2027",
+      "status": "Open; resident and nonresident dates differ",
+      "scopeAndExceptions": "Use the correct residency-specific dates and method rules.",
+      "additionalRule": "Furbearer license and trapping rules may apply to the chosen method.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "licenseAndEducation": [
+    {
+      "topic": "Where/how to buy",
+      "fact": "Purchase licenses, stamps and permits through the official Go Wild portal or an authorized DNR license sales agent. Check Go Wild for unit-specific authorizations and current availability.",
+      "sourceUrl": "https://dnr.wisconsin.gov/permits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Hunter education",
+      "fact": "Anyone born on or after Jan. 1, 1973 must complete hunter education and have a certificate on file before buying a hunting license, unless using the mentorship program or documented qualifying U.S. military basic training.",
+      "sourceUrl": "https://dnr.wisconsin.gov/Education/OutdoorSkills/safetyEducation",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Bowhunter education",
+      "fact": "For bow hunting, people born on or after Jan. 1, 1973 need hunter education or bowhunter education. Bowhunter-only certification authorizes archery/crossbow licenses only, subject to stated exceptions.",
+      "sourceUrl": "https://dnr.wisconsin.gov/Education/OutdoorSkills/safetyEducation",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Selected license fees",
+      "fact": "Official fees: small game $18 resident/$90 nonresident; state waterfowl stamp $12; federal stamp $28.50; early/regular goose permit $3; turkey license $15/$65 plus $5.25 wild-turkey stamp; gun deer, archery and crossbow $24/$200; bear application $4.50 and drawn license $49/$251; elk application $10 resident-only and drawn license $49 resident-only. Junior prices and bonus authorizations differ by program.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/Hunt/regulations/OnlineHuntingRegulations/LicensingRequirementsLicenseFees",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Deer bonus authorizations",
+      "fact": "2026 bonus antlerless authorizations are first-come and subject to availability: $12 resident, $20 nonresident, $5 youth under 12. One to five Farmland authorizations may be included with each deer license depending on unit choice.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Elk-specific eligibility",
+      "fact": "The 2026 elk hunt was open only to Wisconsin residents. Selected hunters must complete Wisconsin elk hunter education before obtaining the license. A resident can receive only one elk hunting license in a lifetime.",
+      "sourceUrl": "https://dnr.wisconsin.gov/newsroom/release/118231",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Waterfowl stamps and HIP",
+      "fact": "Waterfowl hunters generally need a small-game license, Wisconsin waterfowl stamp, federal waterfowl stamp, HIP registration and any applicable early or regular goose permit. Hunters age 16+ need both state and federal stamps.",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "deadlines": [
+    {
+      "applicationOrDeadline": "2027 spring turkey harvest-authorization drawing",
+      "dateOrStatus": "Dec. 10, 2026.",
+      "relevantYear": "2027 spring season",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2027 bear license or preference-point application",
+      "dateOrStatus": "Dec. 10, 2026; DNR states the deadline is always Dec. 10 before the season.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/bear",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2027 elk application",
+      "dateOrStatus": "Not yet published - check Wisconsin DNR for final dates. The agency describes Mar. 1–May 31, 2027 as expected, not final; quota and unit details remain unconfirmed.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://dnr.wisconsin.gov/newsroom/release/131251",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026 elk application",
+      "dateOrStatus": "Closed May 31, 2026.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://dnr.wisconsin.gov/newsroom/release/118231",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "Bobcat and fisher permit applications",
+      "dateOrStatus": "Aug. 1 annually; the 2026 deadline has passed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "sources": [
+    {
+      "category": "Official regulations",
+      "title": "Wisconsin Hunting Regulations, Fall 2026–Spring 2027",
+      "url": "https://dnr.wisconsin.gov/topic/Hunt/regulations/OnlineHuntingRegulations",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Season dates and deadlines",
+      "title": "Wisconsin DNR season dates and application deadlines",
+      "url": "https://dnr.wisconsin.gov/topic/hunt/dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Deer",
+      "title": "Deer hunting",
+      "url": "https://dnr.wisconsin.gov/topic/hunt/deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Bear",
+      "title": "Bear hunting",
+      "url": "https://dnr.wisconsin.gov/topic/hunt/bear",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Turkey",
+      "title": "Turkey hunting",
+      "url": "https://dnr.wisconsin.gov/topic/hunt/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Waterfowl",
+      "title": "Waterfowl hunting",
+      "url": "https://dnr.wisconsin.gov/topic/hunt/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Elk",
+      "title": "2026 Elk Opener Is Oct. 17",
+      "url": "https://dnr.wisconsin.gov/newsroom/release/131251",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Licensing and fees",
+      "title": "License Fees",
+      "url": "https://dnr.wisconsin.gov/topic/Hunt/regulations/OnlineHuntingRegulations/LicensingRequirementsLicenseFees",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Education",
+      "title": "Sign up for a safety education course",
+      "url": "https://dnr.wisconsin.gov/Education/OutdoorSkills/safetyEducation",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official portal",
+      "title": "Go Wild",
+      "url": "https://gowild.wi.gov/",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "unverifiedItems": [
+    "Fall 2027 / 2027–28 deer, bear, waterfowl and small-game schedules were not confirmed; the winter 2027 tails of the published 2026–27 seasons are shown above.",
+    "No official 2026–27 wolf season dates were identified in the consulted DNR date table; do not infer an open season.",
+    "Exact deer DMU quotas, holiday-hunt county list, Metro authorization availability and shooting hours require the linked regulations and maps.",
+    "The 2027 elk application window is marked expected by DNR, not final; check for final quota, unit grouping and dates.",
+    "This summary does not reproduce all bag/possession limits, registration mechanics, local closures, baiting rules or trapping sub-tables.",
+    "Wisconsin DNR’s turkey page lists Period E May 19–25, 2027 and Period F May 25–June 1, 2027, an apparent one-day overlap. Period F is not presented here as a confirmed date; confirm with DNR/Go Wild."
+  ],
+  "gear": [
+    {
+      "name": "Vortex Optics Blaze Orange Hunting Vest & Hat Combo",
+      "whyUseful": "A packable visibility layer and cap for hunts where blaze-orange clothing is useful or required. Confirm sizing and the agency’s exact color and coverage rules; this recommendation is not a legal-compliance certification.",
+      "asin": "B0DW3MXC12",
+      "url": "https://www.amazon.com/dp/B0DW3MXC12?tag=fieldseasonhq-20",
+      "verificationUrl": "https://www.amazon.com/Vortex-Optics-Blaze-Orange-Hunting/dp/B0DW3MXC12",
+      "verifiedOn": "2026-11-03"
+    }
+  ]
+}

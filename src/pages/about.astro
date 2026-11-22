@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const title = 'About Field Season HQ';
+const description = 'Learn how Field Season HQ summarizes hunting dates and license information from official state wildlife agency sources.';
+const canonical = 'https://fieldseasonhq.com/about/';
+---
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <section class="about-section"><div class="container prose">
+    <span class="eyebrow">About</span>
+    <h1>Useful summaries, grounded in official sources.</h1>
+    <p>Field Season HQ is designed to help hunters find state season dates, license information, education requirements, and application deadlines without losing sight of the official regulations.</p>
+    <h2>How information is handled</h2>
+    <p>State guide facts link to an official wildlife agency page, regulations publication, or licensing portal. If a fact could not be confirmed in an official source, it should be marked as unpublished or unverified rather than guessed.</p>
+    <h2>Always check before you hunt</h2>
+    <p>Dates and regulations can change, and local details may apply. Confirm the current rules for your species, unit or zone, method, and license directly with the state agency before heading out.</p>
+  </div></section>
+</BaseLayout>

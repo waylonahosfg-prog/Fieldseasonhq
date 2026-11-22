@@ -1,0 +1,482 @@
+{
+  "slug": "pennsylvania",
+  "name": "Pennsylvania",
+  "sortOrder": 3,
+  "year": "2026–27",
+  "verifiedOn": "2026-11-03",
+  "metaDescription": "Find Pennsylvania hunting dates for 2026–27, from deer and elk to turkey and migratory birds, plus license fees, education and draw deadlines.",
+  "homepageSummary": "PGC season dates, WMU exceptions, fees and HuntFishPA deadlines.",
+  "intro": "Pennsylvania’s dates are species-specific, and several seasons vary by Wildlife Management Unit (WMU). Deer and bear have statewide frameworks with exceptions, while fall turkey and migratory birds have distinct WMU or flyway-zone dates. Check the current digest before choosing a hunt.",
+  "zoneNote": "Deer, bear and fall turkey rules can vary by WMU; waterfowl dates vary among North, South, Northwest and Lake Erie zones. Sunday hunting is generally included in 2026–27 seasons except migratory game birds, which remain closed Sundays.",
+  "agency": {
+    "name": "Pennsylvania Game Commission (PGC)",
+    "url": "https://www.pa.gov/agencies/pgc"
+  },
+  "seasonFacts": [
+    {
+      "species": "White-tailed deer",
+      "method": "Archery (antlered and antlerless)",
+      "dates": "WMUs 2B, 5C and 5D: Sept. 19–Nov. 27, 2026 and Dec. 26, 2026–Jan. 24, 2027; statewide otherwise: Oct. 3–Nov. 20, 2026 and Dec. 26, 2026–Jan. 24, 2027",
+      "status": "Open on Nov. 3 in the listed statewide and extended WMU periods",
+      "scopeAndExceptions": "WMUs 2B, 5C and 5D open earlier and remain open later in the first segment. One antlered deer per license year; antlerless deer need the applicable license/permit.",
+      "additionalRule": "No fluorescent orange is required for archery; verify WMU-specific dates and tag limits.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Muzzleloader (antlerless only)",
+      "dates": "Oct. 17–25, 2026 statewide",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Statewide; requires the applicable antlerless license/permit.",
+      "additionalRule": "Fluorescent orange requirement is 250 square inches on head, chest and back.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Special firearms (antlerless only)",
+      "dates": "Oct. 22–25, 2026 statewide",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Limited to qualifying junior/senior license holders, qualifying mentored hunters age 7+, disabled-person vehicle-as-blind permit holders and Pennsylvania residents on qualifying active duty; antlerless license/permit required.",
+      "additionalRule": "The PGC’s final 2026–27 approval notice lists the eligible hunter groups.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/final-2026-27-hunting-seasons-approved",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Regular firearms (antlered and antlerless)",
+      "dates": "Nov. 28–Dec. 13, 2026 statewide",
+      "status": "Future; opens Nov. 28",
+      "scopeAndExceptions": "Statewide. One antlered deer per license year; antlerless deer require the applicable license/permit.",
+      "additionalRule": "The 2026–27 final approval states seasons generally include Sundays within the listed dates, with migratory-bird hunting as an exception.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Flintlock (antlered or antlerless)",
+      "dates": "Dec. 26, 2026–Jan. 24, 2027 statewide",
+      "status": "Future",
+      "scopeAndExceptions": "Statewide. One antlered deer per license year; an antlerless deer may be taken with the general-license harvest tag plus one per required antlerless license/permit.",
+      "additionalRule": "Use the final approved 2026–27 dates; the season table also contains an identified year typo for a different extended season.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/final-2026-27-hunting-seasons-approved",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Extended regular firearms, antlerless only",
+      "dates": "WMUs 2B, 5C, 5D: Dec. 26, 2026–Jan. 24, 2027; WMUs 4A, 4C, 4D, 5A: Dec. 26, 2026–Jan. 18, 2027; statewide DMAP properties: Dec. 26, 2026–Jan. 24, 2027",
+      "status": "Future",
+      "scopeAndExceptions": "Not uniform statewide. DMAP season applies only on enrolled properties with a valid DMAP permit; the other extended periods are WMU-specific.",
+      "additionalRule": "The seasons webpage has a year typo for WMUs 4A/4C/4D/5A; the final approval and 2026–27 digest establish Jan. 18, 2027.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/final-2026-27-hunting-seasons-approved",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Archery",
+      "dates": "WMUs 2B, 5C, 5D: Sept. 19–Nov. 27; WMUs 3C, 3D, 5B: Oct. 3–Nov. 20; WMUs 1A, 1B, 2A, 2C, 2D, 2E, 2F, 2G, 3A, 3B, 4A, 4B, 4C, 4D, 4E, 5A: Oct. 17–25, 2026",
+      "status": "Open Nov. 3 only in WMUs 2B/5C/5D and 3C/3D/5B; other listed periods have ended",
+      "scopeAndExceptions": "Archery dates vary by WMU; maximum one bear per license year.",
+      "additionalRule": "A bear license is required in addition to the general/combination license or qualifying mentored permit.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Muzzleloader",
+      "dates": "Oct. 22–25, 2026 statewide",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Statewide; maximum one bear per license year with the required bear license.",
+      "additionalRule": "A bear license is required; consult the digest for sporting-arm and orange requirements.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/final-2026-27-hunting-seasons-approved",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Special firearms",
+      "dates": "Oct. 22–25, 2026 statewide",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Special firearms is limited to qualifying junior/senior, mentored, disabled-person vehicle-as-blind and Pennsylvania active-duty military hunters.",
+      "additionalRule": "A bear license is required; consult the digest for sporting-arm and orange requirements.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/final-2026-27-hunting-seasons-approved",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Regular and extended firearms",
+      "dates": "Statewide Nov. 21–24, 2026; extended WMUs 3A, 3B, 3C, 3D, 4C, 4E, 5A Nov. 28–Dec. 6; WMUs 2B, 5B, 5C, 5D Nov. 28–Dec. 13",
+      "status": "Future",
+      "scopeAndExceptions": "The statewide segment and WMU-specific extensions are separate; maximum one bear per license year.",
+      "additionalRule": "Check bear-license and unit provisions before hunting.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Fall, male or female",
+      "dates": "WMUs 1A, 2G, 3A, 4A, 4B, 4D: Oct. 31–Nov. 15; WMUs 1B, 3D, 4C, 4E: Oct. 31–Nov. 8; WMUs 2A, 2F, 3B, 3C: Oct. 31–Nov. 15 and Nov. 25–27; WMUs 2B, 2C, 2D, 2E: Oct. 31–Nov. 20 and Nov. 25–27; WMUs 5A, 5B: Oct. 31–Nov. 3; WMUs 5C and 5D closed",
+      "status": "Open on Nov. 3 only in WMUs whose listed period includes that date; WMUs 5A/5B close Nov. 3; 5C/5D closed all fall",
+      "scopeAndExceptions": "Fall turkey is WMU-specific, not statewide uniform. One bird per license year.",
+      "additionalRule": "No single-projectile firearms; shotguns and archery gear only.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Spring gobbler, regular (bearded only)",
+      "dates": "May 1–31, 2027",
+      "status": "Future",
+      "scopeAndExceptions": "Statewide. Legal hours May 1–16 are half-hour before sunrise to noon; May 17–31 are half-hour before sunrise to half-hour after sunset.",
+      "additionalRule": "One spring gobbler season limit; check license requirements for youth and mentored hunters.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/final-2026-27-hunting-seasons-approved",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Spring youth/mentored gobbler (bearded only)",
+      "dates": "Apr. 24–25, 2027",
+      "status": "Future",
+      "scopeAndExceptions": "Special youth/mentored hunt for age 16 and under; consult eligibility and legal-hour rules.",
+      "additionalRule": "One spring gobbler season limit; check license requirements for youth and mentored hunters.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/final-2026-27-hunting-seasons-approved",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Elk",
+      "method": "Archery (drawn license only)",
+      "dates": "Sept. 12–27, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Elk licenses are limited and drawn; hunt-zone, sex and season choice apply. One elk per license year with elk license.",
+      "additionalRule": "All applicants, including nonresidents, need a valid Pennsylvania general hunting license. Harvested elk must be taken to the official check station within 24 hours.",
+      "sourceUrl": "https://www.pa.gov/services/pgc/apply-for-an-elk-license",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Elk",
+      "method": "Regular firearms (drawn license only)",
+      "dates": "Oct. 3–11; Oct. 31–Nov. 8, 2026; Jan. 9–17, 2027, by awarded season",
+      "status": "Second regular firearms segment is open through Nov. 8; other segments ended or are future",
+      "scopeAndExceptions": "Elk licenses are limited and drawn; hunt-zone, sex and season choice apply. One elk per license year with elk license.",
+      "additionalRule": "All applicants, including nonresidents, need a valid Pennsylvania general hunting license. Harvested elk must be taken to the official check station within 24 hours.",
+      "sourceUrl": "https://www.pa.gov/services/pgc/apply-for-an-elk-license",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Moose",
+      "method": "No season listed",
+      "dates": "No 2026–27 moose season is listed in the official PGC seasons and bag limits or digest",
+      "status": "No season confirmed/published by PGC for Pennsylvania",
+      "scopeAndExceptions": "Official 2026–27 big-game tables list elk but not moose; do not infer a moose season.",
+      "additionalRule": "Check PGC for any later special authorization.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ducks, sea ducks, coots and mergansers",
+      "method": "Migratory waterfowl",
+      "dates": "North Zone Oct. 10–24 and Nov. 17, 2026–Jan. 9, 2027; South Zone Oct. 10–17 and Nov. 18, 2026–Jan. 18, 2027; Northwest Zone Oct. 10–Nov. 27 and Dec. 21, 2026–Jan. 9, 2027; Lake Erie Zone Nov. 2, 2026–Jan. 9, 2027",
+      "status": "Northwest and Lake Erie zones are open Nov. 3; North and South zones are between segments",
+      "scopeAndExceptions": "Four zones have different dates. No Sunday hunting for migratory birds. Duck daily limit 6 with species sublimits; merganser 5 and coot 15.",
+      "additionalRule": "Migratory Game Bird License required; waterfowl hunters age 16+ also need a federal duck stamp.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/2026-27-migratory-game-bird-season-set",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Canada goose",
+      "method": "Migratory waterfowl",
+      "dates": "Resident Population zone: Sept. 1–25 (8/day), Oct. 24–Nov. 27, Dec. 15–Jan. 18 and Jan. 29–Feb. 20, 2027 (5/day latter segments). Atlantic Population zone: Sept. 1–25 (8/day), Nov. 21–27 and Dec. 4–Jan. 18 (3/day latter segments)",
+      "status": "Resident Population zone is open Nov. 3; Atlantic Population zone’s next segment begins Nov. 21",
+      "scopeAndExceptions": "Resident Population zone is Pennsylvania except the defined Atlantic Population area. Agency notice includes a special early-season exception in western Crawford/northwestern Mercer.",
+      "additionalRule": "No Sunday migratory-bird hunting; check the PGC zone boundary and bag limits.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/2026-27-migratory-game-bird-season-set",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Light geese",
+      "method": "Regular season",
+      "dates": "Nov. 6, 2026–March 10, 2027; 25 daily, no possession limit",
+      "status": "Future; opens Nov. 6",
+      "scopeAndExceptions": "Zone and federal migratory-bird rules apply; any separate conservation order was left for a later decision.",
+      "additionalRule": "No Sunday hunting for migratory birds. Snow Goose Permit is required if a conservation season is implemented.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/2026-27-migratory-game-bird-season-set",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Doves",
+      "method": "Migratory birds",
+      "dates": "Sept. 1–Nov. 27 and Dec. 18, 2026–Jan. 2, 2027; 15 daily",
+      "status": "Open on Nov. 3",
+      "scopeAndExceptions": "Statewide dates, subject to official migratory-bird rules.",
+      "additionalRule": "Migratory Game Bird License required; no Sunday hunting.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/2026-27-migratory-game-bird-season-set",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Woodcock",
+      "method": "Migratory birds",
+      "dates": "Oct. 17–Dec. 8, 2026; 3 daily",
+      "status": "Open on Nov. 3",
+      "scopeAndExceptions": "Statewide dates, subject to official migratory-bird rules.",
+      "additionalRule": "Migratory Game Bird License required; no Sunday hunting.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/2026-27-migratory-game-bird-season-set",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wilson’s snipe",
+      "method": "Migratory birds",
+      "dates": "Oct. 17–Dec. 8, 2026; 8 daily",
+      "status": "Open on Nov. 3",
+      "scopeAndExceptions": "Statewide dates, subject to official migratory-bird rules.",
+      "additionalRule": "Migratory Game Bird License required; no Sunday hunting.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/2026-27-migratory-game-bird-season-set",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Rails and gallinules",
+      "method": "Migratory birds",
+      "dates": "Sept. 1–Nov. 20, 2026; 3 daily under the listed aggregate/species rules",
+      "status": "Open on Nov. 3",
+      "scopeAndExceptions": "Statewide unless otherwise stated by official migratory-bird rule; clapper and king rails have no open season.",
+      "additionalRule": "Migratory Game Bird License required; no Sunday hunting.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/newsroom/2026-27-migratory-game-bird-season-set",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Squirrel",
+      "method": "Small game",
+      "dates": "Sept. 12, 2026–Feb. 28, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Statewide, subject to species-specific bag limits and legal methods.",
+      "additionalRule": "Consult the digest for daily and possession limits.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ruffed grouse",
+      "method": "Small game",
+      "dates": "Oct. 17–Dec. 24, 2026",
+      "status": "Open",
+      "scopeAndExceptions": "Statewide unless closed by a special wildlife-area or executive order.",
+      "additionalRule": "Check the current digest for limits and closures.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Cottontail rabbit",
+      "method": "Small game",
+      "dates": "Oct. 17–Dec. 24 and Dec. 26, 2026–Feb. 28, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Statewide; local property restrictions may apply.",
+      "additionalRule": "Check bag limits in the digest.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pheasant",
+      "method": "Small game",
+      "dates": "Oct. 24–Dec. 24 and Dec. 26, 2026–Feb. 28, 2027; junior/mentored special season Oct. 10–18",
+      "status": "Regular season open; junior/mentored special dates ended",
+      "scopeAndExceptions": "Wild Pheasant Recovery Areas are closed except by executive order; a pheasant permit is generally required for adult/senior hunters, with listed exceptions.",
+      "additionalRule": "Adult pheasant permit $26.97; junior permit is free.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Bobwhite quail",
+      "method": "Small game",
+      "dates": "Sept. 1–Dec. 24 and Dec. 26, 2026–March 31, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Statewide date framework; verify localized rules and bag limits.",
+      "additionalRule": "Use the complete digest for other quail and property-specific rules.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Woodchuck",
+      "method": "Small game",
+      "dates": "July 1–Dec. 24 and Dec. 26, 2026–June 30, 2027",
+      "status": "Open through Nov. 3",
+      "scopeAndExceptions": "Statewide dates, subject to property access and legal methods.",
+      "additionalRule": "Check the digest for local restrictions.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Fox and raccoon",
+      "method": "Small game/furbearer hunting",
+      "dates": "Oct. 24, 2026–Feb. 21, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Statewide summary; species, method and bag limits vary by regulation.",
+      "additionalRule": "Consult the digest for the applicable license and legal methods.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Bobcat",
+      "method": "Furbearer hunting by permit",
+      "dates": "Jan. 9–Feb. 3, 2027 in listed WMUs",
+      "status": "Future",
+      "scopeAndExceptions": "Only listed WMUs; permit required.",
+      "additionalRule": "Bobcat permit issuance deadline is Dec. 18, 2026.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "licenseAndEducation": [
+    {
+      "topic": "License year and sale date",
+      "fact": "The 2026–27 license year runs July 1, 2026–June 30, 2027; general hunting and trapping licenses went on sale June 22, 2026.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "How to buy",
+      "fact": "Buy online through HuntFishPA or in person from a PGC license issuing agent. Online delivery may take up to 10 business days, or 20 business days during high-sales periods; digital licenses do not include harvest tags.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "General license fees",
+      "fact": "Official prices: resident adult $20.97; resident junior $6.97 and junior combination $9.97; resident senior $13.97; nonresident adult $101.97; nonresident junior $41.97 and junior combination $51.97; nonresident 7-day small-game $31.97.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits/license-types",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Common add-on fees",
+      "fact": "Resident archery $16.97, muzzleloader $11.97, migratory-game-bird $3.97, bear $16.97; nonresident archery $26.97, muzzleloader $21.97, migratory $6.97, bear $36.97; federal eDuck stamp $30.97; adult pheasant permit $26.97; snow-goose permit $1.97; bobcat/fisher/river-otter permits $6.97.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits/license-types",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Antlerless deer license",
+      "fact": "Antlerless license costs $6.97 resident and $26.97 nonresident. Scheduled 2026 rounds opened June 15, 22, July 13, 27, Aug. 10 and Aug. 24; remaining availability depends on WMU quotas in HuntFishPA.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits/antlerless-deer-license",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Elk application",
+      "fact": "The 2026 application ran May 1–July 12 through HuntFishPA. One $11.97 application allowed up to five season/zone/sex choices; drawing concluded July 25. A valid Pennsylvania general hunting license was required, including for nonresidents.",
+      "sourceUrl": "https://www.pa.gov/services/pgc/apply-for-an-elk-license",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Hunter education",
+      "fact": "First-time hunters must complete Pennsylvania Basic Hunter-Trapper Education before obtaining a hunting license. In-person course is free; online options have stated fees. A score of at least 80% is required. Mentored hunters do not need the class before obtaining a mentored permit.",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/education/hunter-trapper-education",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "deadlines": [
+    {
+      "applicationOrDeadline": "2026 elk license drawing",
+      "dateOrStatus": "Application closed July 12, 2026; drawing concluded July 25.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://www.pa.gov/services/pgc/apply-for-an-elk-license",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026 antlerless deer license rounds",
+      "dateOrStatus": "Rounds opened June 15, June 22, July 13, July 27, Aug. 10 and Aug. 24. Remaining availability depends on WMU quotas in HuntFishPA.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits/antlerless-deer-license",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "Bobcat and fisher permit issuance",
+      "dateOrStatus": "Dec. 18, 2026 deadline.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits/license-types",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "River otter permit issuance",
+      "dateOrStatus": "Feb. 12, 2027 deadline.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits/license-types",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "Future 2027–28 applications and deadlines",
+      "dateOrStatus": "Not yet published - check Pennsylvania Game Commission and HuntFishPA.",
+      "relevantYear": "2027–28",
+      "sourceUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "sources": [
+    {
+      "category": "Agency home",
+      "title": "Pennsylvania Game Commission",
+      "url": "https://www.pa.gov/agencies/pgc",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official regulations PDF",
+      "title": "2026–27 Pennsylvania Hunting and Trapping Digest",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/pgc/documents/hunttrap/law/pa%20game%20hunttrap%20digest%2026-27.pdf",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Season table",
+      "title": "2026–27 Seasons and Bag Limits",
+      "url": "https://www.pa.gov/agencies/pgc/huntingandtrapping/regulations/seasons-and-bag-limits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Final approval",
+      "title": "Final 2026–27 Hunting Seasons Approved",
+      "url": "https://www.pa.gov/agencies/pgc/newsroom/final-2026-27-hunting-seasons-approved",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Migratory birds",
+      "title": "2026–27 Migratory Game Bird Season Set",
+      "url": "https://www.pa.gov/agencies/pgc/newsroom/2026-27-migratory-game-bird-season-set",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Licensing and fees",
+      "title": "Licenses and Permits; License Types",
+      "url": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Antlerless deer licenses",
+      "title": "Antlerless Deer License",
+      "url": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits/antlerless-deer-license",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Elk drawing",
+      "title": "Apply for an Elk License",
+      "url": "https://www.pa.gov/services/pgc/apply-for-an-elk-license",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Hunter education",
+      "title": "Hunter-Trapper Education",
+      "url": "https://www.pa.gov/agencies/pgc/education/hunter-trapper-education",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "unverifiedItems": [
+    "2027–28 season dates, license sales dates and application deadlines were not yet published as of Nov. 3, 2026.",
+    "Light-goose conservation-order status for 2027 was left for a later decision after population surveys; check PGC before hunting under that order.",
+    "Live remaining antlerless-deer WMU quotas and permit availability change over time; verify in HuntFishPA on the date of purchase.",
+    "The official seasons webpage has a Jan. 18, 2026 typo for WMUs 4A/4C/4D/5A extended deer dates; the final approval and 2026–27 digest establish Jan. 18, 2027.",
+    "This summary does not reproduce every trapping season, special wildlife-area hunt, sporting-arm detail or bag-limit subrule; consult the complete official digest.",
+    "No Pennsylvania moose season is listed in the reviewed 2026–27 PGC tables; this is not a claim that no future special authorization could be issued."
+  ],
+  "gear": [
+    {
+      "name": "Vortex Optics Blaze Orange Hunting Vest & Hat Combo",
+      "whyUseful": "A packable visibility layer and cap for hunts where blaze-orange clothing is useful or required. Confirm sizing and the agency’s exact color and coverage rules; this recommendation is not a legal-compliance certification.",
+      "asin": "B0DW3MXC12",
+      "url": "https://www.amazon.com/dp/B0DW3MXC12?tag=fieldseasonhq-20",
+      "verificationUrl": "https://www.amazon.com/Vortex-Optics-Blaze-Orange-Hunting/dp/B0DW3MXC12",
+      "verifiedOn": "2026-11-03"
+    }
+  ]
+}

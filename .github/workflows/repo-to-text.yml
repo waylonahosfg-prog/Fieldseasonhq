@@ -1,0 +1,58 @@
+name: Bundle Repo to Text
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate detailed repo text dump
+        run: |
+          OUT="repo-dump.txt"
+          {
+            echo "=========================================="
+            echo "REPOSITORY DUMP"
+            echo "Generated (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
+            echo "Commit: $(git rev-parse HEAD)"
+            echo "=========================================="
+            echo ""
+            echo "--- DIRECTORY STRUCTURE ---"
+            git ls-files | sort
+            echo ""
+          } > "$OUT"
+
+          git ls-files | sort | while IFS= read -r file; do
+            case "$file" in
+              *.png|*.jpg|*.jpeg|*.webp|*.gif|*.ico|*.pdf|*.zip|*.woff|*.woff2|*.ttf|*.eot|*.mp4|*.mov|*.lock|package-lock.json|pnpm-lock.yaml|yarn.lock)
+                echo "==========================================" >> "$OUT"
+                echo "FILE: $file [SKIPPED BINARY/LOCKFILE]" >> "$OUT"
+                echo "==========================================" >> "$OUT"
+                echo "" >> "$OUT"
+                continue
+                ;;
+            esac
+
+            echo "==========================================" >> "$OUT"
+            echo "FILE: $file" >> "$OUT"
+            echo "LINES: $(wc -l < "$file" | tr -d ' ') | BYTES: $(wc -c < "$file" | tr -d ' ')" >> "$OUT"
+            echo "==========================================" >> "$OUT"
+            nl -ba "$file" >> "$OUT" 2>/dev/null || cat "$file" >> "$OUT"
+            echo "" >> "$OUT"
+            echo "" >> "$OUT"
+          done
+
+      - name: Upload text dump artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: repository-text-dump
+          path: repo-dump.txt
+          retention-days: 14

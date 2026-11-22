@@ -1,0 +1,409 @@
+{
+  "slug": "colorado",
+  "name": "Colorado",
+  "sortOrder": 1,
+  "year": "2026–27",
+  "verifiedOn": "2026-11-03",
+  "metaDescription": "Check Colorado hunting season dates for 2026–27, including deer, elk, turkey and waterfowl, plus license steps and deadlines linked to CPW sources.",
+  "homepageSummary": "CPW dates, draw steps and area-specific rules for Colorado hunting.",
+  "intro": "Colorado’s 2026 seasons are organized around GMUs, hunt codes, license types and waterfowl zones—not one statewide opening date. Use this guide to find the statewide framework, then confirm the exact hunt code and current CPW rules before you go.",
+  "zoneNote": "Big-game hunt codes and GMUs, turkey areas split by I-25 and GMU 140, and Central/Pacific Flyway waterfowl zones can change dates and eligibility. The published regulation and your license’s exact hunt code control.",
+  "agency": {
+    "name": "Colorado Parks and Wildlife (CPW)",
+    "url": "https://cpw.state.co.us/"
+  },
+  "seasonFacts": [
+    {
+      "species": "Deer",
+      "method": "Archery",
+      "dates": "Sept. 2–30, 2026",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "Statewide summary only; exact dates and eligibility can differ by GMU, hunt code, license type, private-land-only status or season-choice license. Some white-tailed deer licenses are OTC in specified units.",
+      "additionalRule": "Use the physical license and exact hunt code for controlling dates and legal hours.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Deer",
+      "method": "Muzzleloader",
+      "dates": "Sept. 12–20, 2026",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "Statewide framework; first-rifle deer is available only in select GMUs, and plains rifle is a separate season.",
+      "additionalRule": "Muzzleloader and associated-method restrictions are in the official 2026 Big Game brochure.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Deer",
+      "method": "Rifle and associated methods",
+      "dates": "First rifle Oct. 14–18; second rifle Oct. 24–Nov. 1; third rifle Nov. 7–15; fourth rifle Nov. 18–22; plains rifle Oct. 24–Nov. 3, 2026",
+      "status": "Second rifle has ended; plains rifle ends Nov. 3; third and fourth rifle are upcoming",
+      "scopeAndExceptions": "First rifle is limited to select GMUs; hunt-code tables specify unit, sex/antler restriction, license type and exceptions. Plains rifle is a separate season.",
+      "additionalRule": "Check the exact deer hunt code, not just the statewide summary.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Elk",
+      "method": "Archery",
+      "dates": "Sept. 2–30, 2026 unless a hunt-code table specifies otherwise",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "Dates and availability vary by GMU, public/private land, OTC versus limited license, sex and hunt code.",
+      "additionalRule": "Use the elk hunt-code tables and license for the exact unit and legal dates.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Elk",
+      "method": "Muzzleloader",
+      "dates": "Sept. 12–20, 2026 unless a hunt-code table specifies otherwise",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "Unit and hunt-code exceptions apply; some licenses have List A/B classifications.",
+      "additionalRule": "Check the license list and current brochure correction for the exact code.",
+      "sourceUrl": "https://cpw.state.co.us/rules-and-regulations",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Elk",
+      "method": "Rifle and associated methods",
+      "dates": "First rifle Oct. 14–18; second Oct. 24–Nov. 1; third Nov. 7–15; fourth Nov. 18–22, 2026 unless otherwise noted",
+      "status": "First and second rifle ended; third and fourth remain upcoming on Nov. 3",
+      "scopeAndExceptions": "Dates are a framework only: unit, license, sex/antler restriction, OTC/limited status and special hunt-code dates control.",
+      "additionalRule": "Mandatory CWD submission applies to elk from selected rifle hunt codes.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pronghorn",
+      "method": "Archery",
+      "dates": "Aug. 15–Sept. 20, 2026 unless otherwise noted",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "GMU, sex, OTC/limited status and hunt-code exceptions apply; check the official maps and tables.",
+      "additionalRule": "A valid license for the specified hunt code is required.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pronghorn",
+      "method": "Muzzleloader",
+      "dates": "Sept. 21–29, 2026 unless otherwise noted",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "GMU and hunt-code exceptions apply.",
+      "additionalRule": "Exact sex, unit and license restrictions are in the hunt-code tables.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pronghorn",
+      "method": "Rifle and associated methods",
+      "dates": "Oct. 3–11, 2026 unless otherwise noted",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "Dates and legal opportunity vary by GMU and hunt code; OTC either-sex plains rifle is not a statewide opportunity.",
+      "additionalRule": "Check the exact license and GMU table.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Moose",
+      "method": "Archery",
+      "dates": "Sept. 12–30, 2026 unless otherwise noted",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "Primarily limited-license and hunt-code specific; 2026 corrections changed some quota and season-choice entries.",
+      "additionalRule": "Successful or unsuccessful license holders have mandatory inspection/reporting duties described in the brochure.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Moose",
+      "method": "Muzzleloader",
+      "dates": "Sept. 12–20, 2026 unless otherwise noted",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "GMU and hunt-code specific; quotas and license categories vary.",
+      "additionalRule": "Present the required head/lower jaw or incisor to CPW within five working days and return the mandatory report within 30 days after season end.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Moose",
+      "method": "Rifle and associated methods",
+      "dates": "Oct. 1–14, 2026 unless otherwise noted",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "Limited and unit/hunt-code specific; the online correction adds resident and nonresident season-choice codes omitted from print.",
+      "additionalRule": "Mandatory inspection and reporting apply even if the animal is antlerless; heads must be unfrozen.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Archery",
+      "dates": "Sept. 2–30, 2026 unless a hunt code says otherwise",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Bear dates, units and methods are hunt-code specific; a separate September rifle-bear season is listed, with special orange/pink exceptions.",
+      "additionalRule": "Present the head and hide to CPW within five working days for inspection, sealing, reporting and premolar extraction.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Muzzleloader",
+      "dates": "Sept. 12–20, 2026 unless a hunt code says otherwise",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Bear dates, units and methods are hunt-code specific; a separate September rifle-bear season is listed, with special orange/pink exceptions.",
+      "additionalRule": "Present the head and hide to CPW within five working days for inspection, sealing, reporting and premolar extraction.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Rifle",
+      "dates": "Separate September rifle Sept. 2–30; regular rifle framework Oct. 14–18, Oct. 24–Nov. 1, Nov. 7–15 and Nov. 18–22, 2026, subject to exact bear hunt code",
+      "status": "September/first/second regular periods ended; later rifle opportunities depend on the license",
+      "scopeAndExceptions": "Bear dates, units and methods are hunt-code specific; a separate September rifle-bear season is listed, with special orange/pink exceptions.",
+      "additionalRule": "Present the head and hide to CPW within five working days for inspection, sealing, reporting and premolar extraction.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Turkey",
+      "method": "Spring limited, OTC and youth opportunities",
+      "dates": "April 11–May 31, 2026",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "Dates vary by license type and GMU; limited licenses, OTC maps/GMUs and youth-only hunt codes are separate.",
+      "additionalRule": "Only one spring application per season; a turkey license is required, not a small-game license.",
+      "sourceUrl": "https://cpw.widen.net/s/cnnjzm8x85/colorado-turkey-hunting-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Turkey",
+      "method": "Fall",
+      "dates": "West of I-25 and GMU 140: Sept. 1–Oct. 4; east of I-25 except GMU 140: Sept. 1–Oct. 23, 2026",
+      "status": "Ended before Nov. 3, 2026",
+      "scopeAndExceptions": "The I-25 and GMU 140 split is explicit; limited, OTC, RFW, youth-only and unit-specific dates also apply.",
+      "additionalRule": "Fall applications were due May 29, 2026; use the license for exact unit and dates.",
+      "sourceUrl": "https://cpw.widen.net/s/cnnjzm8x85/colorado-turkey-hunting-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Turkey",
+      "method": "Late season, private land only",
+      "dates": "Dec. 15, 2026–Jan. 15, 2027",
+      "status": "Future as of Nov. 3, 2026",
+      "scopeAndExceptions": "OTC private-land-only within the GMU where the hunter has landowner permission; up to two beardless turkey licenses may be purchased.",
+      "additionalRule": "Confirm the exact license and property permission before hunting.",
+      "sourceUrl": "https://cpw.widen.net/s/cnnjzm8x85/colorado-turkey-hunting-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ducks, mergansers and coots",
+      "method": "Regular and September teal",
+      "dates": "September teal Sept. 12–20 in Lake and Chaffee counties and areas east of I-25. Duck/merganser/coot: Northeast Oct. 17–Nov. 29 and Dec. 11–Jan. 31, 2027; Southeast Oct. 28–Jan. 31, 2027; Mountain/Foothills Oct. 3–Nov. 29 and Dec. 25–Jan. 31, 2027; Western Oct. 3–20 and Nov. 6–Jan. 31, 2027; Eastern Oct. 3–Jan. 15, 2027",
+      "status": "Fall seasons remain open in applicable zones during portions of November; winter dates extend into 2027",
+      "scopeAndExceptions": "Central Flyway zones are Northeast, Southeast and Mountain/Foothills; Pacific Flyway zones are Western and Eastern. Splits and limits differ by zone.",
+      "additionalRule": "Hunters 16+ need Colorado and federal waterfowl stamps. HIP registration is required for migratory-bird hunters.",
+      "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Geese",
+      "method": "Regular dark/light goose and conservation order",
+      "dates": "Central Flyway regular dark goose Nov. 2, 2026–Feb. 14, 2027; light goose Oct. 31, 2026–Feb. 14, 2027. North Park dark goose Oct. 3, 2026–Jan. 15, 2027 and light goose Oct. 31–Feb. 14. San Luis Valley dark goose Oct. 3–21 and Nov. 21–Feb. 14; light goose Oct. 31–Feb. 14. South Park dark goose Oct. 3–Jan. 15 and light goose Oct. 31–Feb. 14. Pacific Western Oct. 3–11 and Nov. 6–Jan. 31; Eastern Oct. 3–Jan. 15. Light-goose conservation order east of I-25 Feb. 15–Apr. 30, 2027",
+      "status": "Applicable fall goose seasons are open or ongoing in zones with November dates; winter seasons continue into 2027",
+      "scopeAndExceptions": "North Park, San Luis Valley, South Park, Eastern and Western dates vary; light/dark classifications, maps and bag limits are zone-specific.",
+      "additionalRule": "Use the official zone map and table; migratory-bird license, stamps and HIP requirements apply.",
+      "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Youth and veteran waterfowl",
+      "method": "Youth, veteran and active-military special seasons",
+      "dates": "Central Flyway Northeast Oct. 10–11; Southeast Oct. 17–18; Mountain/Foothills Sept. 26–27; Pacific Flyway zones Sept. 26–27, 2026",
+      "status": "All listed special dates occurred before Nov. 3",
+      "scopeAndExceptions": "Zone-specific; youth are 17 or younger and must have an adult mentor who does not hunt. Veteran/active-military eligibility is limited by the official brochure.",
+      "additionalRule": "Consult the map and special-season table for the exact zone.",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/fxhixb1r1q",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pheasant",
+      "method": "Small-game methods",
+      "dates": "East of I-25 Nov. 14, 2026–Jan. 31, 2027; west of I-25 Nov. 14, 2026–Jan. 3, 2027",
+      "status": "Opens Nov. 14, 2026",
+      "scopeAndExceptions": "Pheasant dates differ east/west of I-25.",
+      "additionalRule": "Small-game license and species-specific rules apply.",
+      "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Quail",
+      "method": "Small-game methods",
+      "dates": "Nov. 14, 2026–Jan. 31, 2027 in east/south zones; Nov. 14, 2026–Jan. 3, 2027 in east/north and west-of-I-25 zones, subject to listed county exceptions",
+      "status": "Opens Nov. 14, 2026",
+      "scopeAndExceptions": "Three county/region-defined seasons; not statewide uniform.",
+      "additionalRule": "Check the complete small-game brochure for the county zone and applicable license.",
+      "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Dove",
+      "method": "Migratory-bird methods",
+      "dates": "Sept. 1–Nov. 29, 2026",
+      "status": "Open through Nov. 29, 2026",
+      "scopeAndExceptions": "Statewide season; species-identification and Eurasian collared-dove rules differ.",
+      "additionalRule": "HIP registration is required for migratory-bird hunters.",
+      "sourceUrl": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Mountain lion",
+      "method": "Methods listed in the mountain-lion brochure",
+      "dates": "Nov. 23, 2026–March 31, 2027",
+      "status": "Future as of Nov. 3, 2026",
+      "scopeAndExceptions": "Unit quotas, license validity and method rules are controlled by the separate mountain-lion brochure.",
+      "additionalRule": "Do not treat this as an unrestricted statewide opportunity.",
+      "sourceUrl": "https://cpw.state.co.us/rules-and-regulations",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "licenseAndEducation": [
+    {
+      "topic": "Hunter education",
+      "fact": "Anyone born on or after Jan. 1, 1949 must complete an approved hunter-education course before applying for or buying a Colorado hunting license. Carry the card unless CPW has verified it and the license is marked V.",
+      "sourceUrl": "https://cpw.state.co.us/activities/hunting",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Big-game draw prerequisites",
+      "fact": "Applicants need valid identification, an SSN or ITIN if age 12+, hunter education, a qualifying license before applying, and a habitat stamp for ages 18–64. A qualifying license and application can be completed in one transaction if the qualifying license is added first.",
+      "sourceUrl": "https://cpw.state.co.us/hunting/big-game/primary-draw",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Where/how to buy",
+      "fact": "Buy online through CPWShop, by phone at 1-800-244-5613, or in person at CPW offices, state parks and authorized sales agents. The CPWShop site includes a sales-agent locator.",
+      "sourceUrl": "https://www.cpwshop.com/licensing.page",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "2026 habitat stamp and turkey fees",
+      "fact": "Confirmed 2026 fees include a $12.76 habitat stamp ($384.16 lifetime). Turkey fees: resident processing $8.93, adult spring $38.49, fall $32.11, youth $20.62; nonresident processing $11.49, adult spring/fall $194.21, youth $130.39. Included fees may include search-and-rescue and Wildlife Management Fund charges.",
+      "sourceUrl": "https://cpw.widen.net/s/cnnjzm8x85/colorado-turkey-hunting-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Waterfowl licensing",
+      "fact": "Waterfowl hunters need a small-game license; hunters age 16+ also need the Colorado waterfowl stamp and federal migratory-bird stamp. Small-game, coyote and migratory-bird hunters must register with HIP before hunting.",
+      "sourceUrl": "https://cpw.state.co.us/activities/hunting/small-game",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Youth rules",
+      "fact": "Youth big-game hunting is generally ages 12–17, with a narrow exception for an 11-year-old who turns 12 before season end. Youth turkey licenses are reduced-cost; hunters under 16 must hunt turkey with an 18+ qualified mentor. Small-game license holders age 17 and younger require a mentor and hunter education.",
+      "sourceUrl": "https://cpw.state.co.us/activities/hunting/youth-hunting",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "deadlines": [
+    {
+      "applicationOrDeadline": "2026 big-game primary draw",
+      "dateOrStatus": "Applications opened March 1 and closed April 7, 2026 at 8 p.m. Mountain Time; closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://cpw.state.co.us/hunting/big-game/primary-draw",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026 spring turkey draw",
+      "dateOrStatus": "Application/correction deadline Feb. 3, 2026 at 8 p.m. MT; closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://cpw.widen.net/s/cnnjzm8x85/colorado-turkey-hunting-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026 fall turkey draw",
+      "dateOrStatus": "Application/correction deadline May 29, 2026 at 8 p.m. MT; closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://cpw.widen.net/s/cnnjzm8x85/colorado-turkey-hunting-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026 big-game OTC/leftover licenses",
+      "dateOrStatus": "OTC, add-on bear and remaining limited licenses went on sale Aug. 4, 2026 at 9 a.m. MT; date has passed, and live availability changes.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2027 big-game draws and turkey applications",
+      "dateOrStatus": "Not yet published - check Colorado Parks and Wildlife draw pages and CPWShop.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://cpw.state.co.us/hunting/big-game/primary-draw",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "sources": [
+    {
+      "category": "Agency home",
+      "title": "Colorado Parks and Wildlife",
+      "url": "https://cpw.state.co.us/",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official 2026 big-game brochure",
+      "title": "2026 Colorado Big Game Hunting Brochure",
+      "url": "https://cpw.widencollective.com/assets/share/asset/erjzbk48be",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official 2026 small-game/waterfowl brochure",
+      "title": "2026 Colorado Small Game and Waterfowl Hunting Brochure",
+      "url": "https://cpw.widen.net/s/bklvf2bjmw/colorado-small-game--waterfowl-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official 2026 turkey brochure",
+      "title": "2026 Colorado Turkey Hunting Brochure",
+      "url": "https://cpw.widen.net/s/cnnjzm8x85/colorado-turkey-hunting-brochure",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official draw portal",
+      "title": "CPW Primary Draw",
+      "url": "https://cpw.state.co.us/hunting/big-game/primary-draw",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official license portal",
+      "title": "CPWShop hunting and fishing licenses",
+      "url": "https://www.cpwshop.com/licensing.page",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Education and youth guidance",
+      "title": "CPW Hunting and Youth Hunting",
+      "url": "https://cpw.state.co.us/activities/hunting",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Rules index",
+      "title": "CPW Rules and Regulations",
+      "url": "https://cpw.state.co.us/rules-and-regulations",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "unverifiedItems": [
+    "Standalone 2027 brochures, new fall 2027 season dates, 2027 fees and application deadlines were not confirmed as of 2026-11-03; published winter tails of 2026–27 seasons are shown in the guide.",
+    "Exact GMU-by-GMU dates, quotas, sex/antler restrictions, OTC versus limited status, private-land-only restrictions and special hunt-code dates cannot be exhaustively represented in this statewide summary; the official brochure and physical license control.",
+    "Live remaining-license inventory is dynamic and was not asserted; check CPWShop immediately before purchase.",
+    "The complete small-game brochure has additional species and zone/bag-limit tables, including grouse, ptarmigan, crane, sage-grouse, snipe, rail and furbearers; consult the full official PDF for those details.",
+    "Bighorn sheep and mountain goat unit/method dates in this guide: Not yet published - check Colorado Parks and Wildlife. The agency’s published 2026 Big Game brochure is the source for exact hunt-code calendars; these were not confirmed for this summary."
+  ],
+  "gear": [
+    {
+      "name": "Vortex Optics Blaze Orange Hunting Vest & Hat Combo",
+      "whyUseful": "A packable visibility layer and cap for hunts where blaze-orange clothing is useful or required. Confirm sizing and the agency’s exact color and coverage rules; this recommendation is not a legal-compliance certification.",
+      "asin": "B0DW3MXC12",
+      "url": "https://www.amazon.com/dp/B0DW3MXC12?tag=fieldseasonhq-20",
+      "verificationUrl": "https://www.amazon.com/Vortex-Optics-Blaze-Orange-Hunting/dp/B0DW3MXC12",
+      "verifiedOn": "2026-11-03"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "slug": "michigan",
+  "name": "Michigan",
+  "sortOrder": 4,
+  "year": "2026–27",
+  "verifiedOn": "2026-11-03",
+  "metaDescription": "Check Michigan hunting dates for 2026–27, including deer, elk, bear, turkey and waterfowl, with DNR license fees, education and draw information.",
+  "homepageSummary": "Michigan DNR dates, hunt-unit rules, license fees and drawing windows.",
+  "intro": "Michigan publishes a statewide calendar, but many opportunities still depend on deer management units, elk management units, bear management units, turkey management units or waterfowl zones. Use the calendar for the broad date, then open the species digest to confirm your unit and tag.",
+  "zoneNote": "Deer tags and antler restrictions differ by DMU/county and Upper versus Lower Peninsula; elk and bear are limited to selected management units and drawn licenses; fall turkey is limited to TMUs I and M; waterfowl dates vary by zone and special goose units.",
+  "agency": {
+    "name": "Michigan Department of Natural Resources (DNR)",
+    "url": "https://www.michigan.gov/dnr"
+  },
+  "seasonFacts": [
+    {
+      "species": "White-tailed deer",
+      "method": "Archery",
+      "dates": "Oct. 1–Nov. 14, 2026 and Dec. 1, 2026–Jan. 1, 2027",
+      "status": "Open through Nov. 14; the late archery segment begins Dec. 1",
+      "scopeAndExceptions": "Statewide calendar dates, but unit-specific licenses, antler-point restrictions, bag limits and universal-antlerless use limits apply. In qualifying Upper Peninsula areas, a senior license holder may use a crossbow in the late period.",
+      "additionalRule": "Mandatory harvest reporting applies. Confirm the DMU rules and exact license before hunting.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Regular firearm",
+      "dates": "Nov. 15–30, 2026",
+      "status": "Published; future as of Nov. 3",
+      "scopeAndExceptions": "Statewide calendar dates, but DMU/county bag limits, antler-point restrictions and tags differ. Beginning Sept. 12, 2026, the limited-firearms deer zone was eliminated; legal firearms may be used across the Lower Peninsula subject to rules.",
+      "additionalRule": "Check the official deer digest for hunter-orange, equipment, tagging, reporting and land restrictions.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Early antlerless firearm",
+      "dates": "Sept. 12–13, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Use the official deer regulations for eligible areas, land types and antlerless authorization requirements.",
+      "additionalRule": "Do not treat a statewide calendar entry as permission to hunt every DMU.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Liberty Hunt: youth and qualifying disabilities",
+      "dates": "Sept. 12–13, 2026",
+      "status": "Both special seasons ended before Nov. 3",
+      "scopeAndExceptions": "For youth and hunters with qualifying disabilities; official eligibility and mentor rules apply.",
+      "additionalRule": "The September early-antlerless firearm season is a separate opportunity; consult the deer digest.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Independence Hunt: qualifying disabilities",
+      "dates": "Oct. 15–18, 2026",
+      "status": "Both special seasons ended before Nov. 3",
+      "scopeAndExceptions": "For hunters with qualifying disabilities; official eligibility and location rules apply.",
+      "additionalRule": "The September early-antlerless firearm season is a separate opportunity; consult the deer digest.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Muzzleloader",
+      "dates": "Dec. 4–6, 2026",
+      "status": "Future",
+      "scopeAndExceptions": "Upper Peninsula DMUs only; legal equipment and license rules apply.",
+      "additionalRule": "The 2026 change reduced both three-day seasons to the first Friday-through-Sunday period in December.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "December firearm",
+      "dates": "Dec. 4–6, 2026",
+      "status": "Future",
+      "scopeAndExceptions": "Lower Peninsula DMUs only; legal equipment and license rules apply.",
+      "additionalRule": "The 2026 change reduced both three-day seasons to the first Friday-through-Sunday period in December.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Late antlerless firearm",
+      "dates": "Dec. 7, 2026–Jan. 1, 2027",
+      "status": "Future",
+      "scopeAndExceptions": "Availability and antlerless-license limits depend on DMU/county; confirm the designated unit.",
+      "additionalRule": "No bucks may be harvested in the applicable antlerless-only periods.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Elk",
+      "method": "Limited drawing licenses; hunt periods and unit-specific methods",
+      "dates": "Period 1: Sept. 23–Oct. 4, 2026 in EMU X; Period 2: Dec. 1–15, 2026 in EMUs H and X; separate Dec. 1–15, 2026 period in EMUs I and X",
+      "status": "September period ended; December periods are future",
+      "scopeAndExceptions": "Not statewide: designated elk management units and the drawn hunt period/license control. Elk licenses are Michigan-resident-only.",
+      "additionalRule": "Applicants may apply without a base license; selected hunters must buy a base license and elk receipt and complete Michigan elk education. Application $5; license $100.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/elk",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Moose",
+      "method": "No ordinary public season identified",
+      "dates": "Not yet published - check Michigan DNR; no moose season appears in the official 2026 hunting calendar or reviewed species regulation pages",
+      "status": "No season confirmed in reviewed official sources",
+      "scopeAndExceptions": "This is a scope finding, not a claim that no special authorization could ever exist.",
+      "additionalRule": "Check Michigan DNR for any later special authorization.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Black bear",
+      "method": "Drawn license; legal methods vary by BMU",
+      "dates": "Amasa/Baraga/Bergland/Carney/Gwinn/Newberry: Sept. 9–Oct. 21, Sept. 14–Oct. 26 or Sept. 25–Oct. 26 by hunt code; Baldwin/Gladwin/Red Oak: Sept. 12–22 and Oct. 2–8; Drummond Island: Sept. 9–Oct. 21, 2026",
+      "status": "All listed 2026 bear seasons ended by Nov. 3",
+      "scopeAndExceptions": "Highly unit-specific: 2026 hunt codes cover Amasa, Baldwin, Baraga, Bergland, Carney, Drummond Island, Gladwin, Gwinn, Newberry and Red Oak. Quotas and legal methods differ by BMU.",
+      "additionalRule": "Application was May 1–June 1, 2026. A drawn license or no-kill-tag participation license is required; bear harvest is subject to registration and use rules.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/bear",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Fall license (any-sex turkey)",
+      "dates": "Sept. 15–Nov. 14, 2026 in TMU I (unlimited) and TMU M (2,200-license quota)",
+      "status": "Open through Nov. 14 in the listed TMUs",
+      "scopeAndExceptions": "Only Turkey Management Units I and M; Isle Royale is closed. TMU M uses a quota; one fall turkey license per year and one turkey per license.",
+      "additionalRule": "License was available beginning Aug. 15. Fall turkey harvest reporting is mandatory; landowner permission is required where applicable.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/fall-turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Spring drawing and unit seasons",
+      "dates": "2027 application Jan. 1–Feb. 1. Seasons: TMU M Apr. 17–May 31; TMU NN Apr. 17–30; statewide TMU May 1–31; TMU ZZ private land Apr. 17–May 31; TMU ZZ Apr. 17–30; TMU ZZ May May 1–31",
+      "status": "Published; application period is future and not yet open",
+      "scopeAndExceptions": "Unit/date-specific licenses apply. Statewide Hunt 0234 allows public/private land in the UP and northern LP but private land only in the southern LP, plus Fort Custer with permission. ZZ Hunt 0301 is private-land-only (with the Fort Custer exception). Neither guaranteed hunt requires the drawing.",
+      "additionalRule": "Use the official spring turkey rules for the exact unit and authorization.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/spring-turkey-2027",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ducks, coots and mergansers",
+      "method": "Regular waterfowl",
+      "dates": "North Zone Sept. 26–Nov. 22 and Nov. 28–29; Middle Oct. 3–Nov. 29 and Dec. 12–13; South Oct. 17–Dec. 13 and Dec. 26–27, 2026",
+      "status": "Regular seasons are open in all three listed zones Nov. 3; early teal and special days have ended",
+      "scopeAndExceptions": "North, Middle and South zones have different dates. Consult the official table for the exact zone and species sublimits.",
+      "additionalRule": "Hunters age 16+ need Michigan waterfowl license and federal duck stamp; free HIP/migratory-bird registration is required.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ducks, coots and mergansers",
+      "method": "Youth and veteran/active-duty waterfowl days",
+      "dates": "Sept. 19–20, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Properly licensed youth age 16 or younger, and qualifying veterans/active-duty personnel, under the official special-season rules.",
+      "additionalRule": "Hunters age 16+ need Michigan waterfowl license and federal duck stamp; free HIP/migratory-bird registration is required.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Teal",
+      "method": "Early teal",
+      "dates": "Sept. 1–9, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Statewide; blue-winged and green-winged teal only. Early-season shooting hours differ from regular waterfowl hours.",
+      "additionalRule": "Hunters age 16+ need Michigan waterfowl license and federal duck stamp; free HIP/migratory-bird registration is required.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Geese",
+      "method": "Dark/light goose and early Canada goose",
+      "dates": "Dark and light geese: North Zone Sept. 1–Dec. 16, 2026; Middle Sept. 1–30 and Oct. 3–Dec. 18, 2026; South Sept. 1–30, Oct. 17–Dec. 13, Dec. 26, 2026–Jan. 3, 2027 and Feb. 6–15, 2027; Allegan County GMU Sept. 1–30, Oct. 17–Nov. 4, 2026 and Dec. 19, 2026–Feb. 14, 2027; Muskegon County Wastewater System GMU Oct. 20–Dec. 19, 2026",
+      "status": "Open Nov. 3 in the listed zones/GMUs, subject to local hunt-day and access restrictions",
+      "scopeAndExceptions": "South Zone excludes the Allegan and Muskegon County GMUs. Dark goose includes brant, Canada and white-fronted geese; light goose includes blue, Ross’s and snow geese. Fennville Farm and Muskegon have special drawing, hunt-day and access rules.",
+      "additionalRule": "Check the DNR waterfowl digest before the hunt for the exact goose species, zone, GMU and bag limit.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Rails, gallinules and snipe",
+      "method": "Migratory birds",
+      "dates": "Sept. 1–Nov. 9, 2026",
+      "status": "Open through Nov. 9",
+      "scopeAndExceptions": "Statewide calendar dates; verify the species-specific rules in the waterfowl digest.",
+      "additionalRule": "HIP/migratory-bird registration and applicable licenses apply.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Ruffed grouse",
+      "method": "Small game",
+      "dates": "Sept. 15–Nov. 14 and Dec. 1, 2026–Jan. 1, 2027",
+      "status": "First period ends Nov. 14; second period is future",
+      "scopeAndExceptions": "Statewide dates subject to the 2026 small-game digest and local restrictions.",
+      "additionalRule": "A base hunting license is required.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/small-game",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pheasant",
+      "method": "Small game",
+      "dates": "Zone 1 Oct. 10–31; Zones 2 and 3 Oct. 20–Nov. 14; December Pheasant Management Unit Dec. 1, 2026–Jan. 1, 2027",
+      "status": "Fall periods ended or close Nov. 14; December PMU is future",
+      "scopeAndExceptions": "Dates vary by zone/management unit. A pheasant license is required on Lower Peninsula public land and HAP land.",
+      "additionalRule": "Use the official map for the December Pheasant Management Unit.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/small-game",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Rabbit and snowshoe hare",
+      "method": "Small game",
+      "dates": "Sept. 15, 2026–March 31, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Statewide calendar dates; snowshoe hare and local-area restrictions may differ.",
+      "additionalRule": "Check the small-game digest for species limits and legal methods.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/small-game",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Squirrel",
+      "method": "Small game",
+      "dates": "Sept. 15, 2026–March 31, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Statewide summary; verify current rules and bag limits in the digest.",
+      "additionalRule": "A base hunting license is required unless exempt.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/small-game",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Woodcock",
+      "method": "Migratory birds",
+      "dates": "Sept. 15–Oct. 29, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Statewide dates, subject to migratory-bird regulations.",
+      "additionalRule": "HIP/migratory-bird registration and applicable license rules apply.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/small-game",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Bobwhite quail",
+      "method": "Small game",
+      "dates": "Oct. 20–Nov. 14, 2026 in select counties",
+      "status": "Open through Nov. 14 in open counties",
+      "scopeAndExceptions": "Only counties listed by Michigan DNR; the season is not statewide.",
+      "additionalRule": "Check the county list in the 2026 small-game digest.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/small-game",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Fox and coyote",
+      "method": "Furbearers",
+      "dates": "Oct. 15, 2026–March 1, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Check species-specific hunting/trapping requirements and local restrictions.",
+      "additionalRule": "Fur-harvester rules and license requirements apply to the specified methods.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/fur-harvester",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Raccoon",
+      "method": "Furbearers",
+      "dates": "Oct. 1, 2026–March 31, 2027",
+      "status": "Open",
+      "scopeAndExceptions": "Resident/nonresident timing and hunting/trapping rules may differ.",
+      "additionalRule": "Use the current furbearer regulation for the chosen method.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/fur-harvester",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Bobcat",
+      "method": "Furbearer harvest by unit and kill tag",
+      "dates": "Jan. 1–March 1, 2027 in Units A–C; Jan. 1–Feb. 1 in D; Jan. 1–20 in G; Jan. 1–11 in H",
+      "status": "Future",
+      "scopeAndExceptions": "Dates vary by unit A/B/C/D/G/H. Bobcat kill tags were available only through Oct. 31, 2026.",
+      "additionalRule": "Verify tag availability and species-specific bag/registration rules before the season.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/fur-harvester",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "licenseAndEducation": [
+    {
+      "topic": "Base license and purchase channels",
+      "fact": "Annual base hunting license is required unless an exception applies; it allows small-game hunting and purchase of additional licenses. Official fees: junior $6, resident $11, nonresident $151, resident senior $5. Buy via the DNR Hunt Fish app, eLicense or a license agent. Tags bought online may take 10–15 business days; store tags are immediately usable.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/fishing/license-info",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Hunter education",
+      "fact": "First-time hunters born on or after Jan. 1, 1960 must pass hunter safety before buying a base license, except for the apprentice-license pathway. DNR lists classroom/field-day and online/home-study options.",
+      "sourceUrl": "https://www.michigan.gov/dnr/education/hunter-rec-edu-safety",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Apprentice and mentored youth",
+      "fact": "Michigan has apprentice and mentored youth opportunities with age, mentor proximity, equipment and species-specific rules. The DNR fee page lists the mentored youth hunting license at $7.50; review the species digest before relying on an exception.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Key species fees",
+      "fact": "Official fee page lists deer $20; deer combo $40 resident/$190 nonresident/$28 senior; antlerless deer $20; fall/spring turkey $15 or $6 senior; waterfowl $12; federal duck stamp $28; fur harvester $15 or $6 senior; nonresident small-game 3-day $50/7-day $80; bear application $5/license $25; elk application $5/license $100.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/fishing/license-info",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Digital and paper tags",
+      "fact": "DNR offers digital eHarvest tags through the Hunt Fish app. Paper tags bought online are mailed; tags printed by license agents can be used immediately.",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/fishing/license-info",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Waterfowl licenses and HIP",
+      "fact": "Hunters age 16+ need a Michigan waterfowl license and federal duck stamp; HIP/migratory-bird registration is free and required. The 2026 electronic federal stamp is valid July 1, 2026–June 30, 2027.",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/waterfowl",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "deadlines": [
+    {
+      "applicationOrDeadline": "2026 elk drawing",
+      "dateOrStatus": "May 1–June 1, 2026; results June 22. Closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/elk",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026 bear drawing",
+      "dateOrStatus": "May 1–June 1, 2026; results June 22. Closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/bear",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026 reserved deer access permits",
+      "dateOrStatus": "Applications July 15–Aug. 15, 2026; closed. Random drawing.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/deer/reserved-deer-hunts",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026 reserved waterfowl hunts",
+      "dateOrStatus": "Applications Aug. 1–28, 2026; results Sept. 14. Closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2027 spring turkey drawing",
+      "dateOrStatus": "Applications Jan. 1–Feb. 1, 2027; results Mar. 1, 2027.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2027 Pure Michigan Hunt",
+      "dateOrStatus": "Applications are open Jan. 1–Dec. 31, 2026; $5 per application, unlimited applications; three winners announced January 2027.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://www.michigan.gov/dnr/things-to-do/hunting/puremi-hunt/pmh-faq",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "sources": [
+    {
+      "category": "Agency home",
+      "title": "Michigan Department of Natural Resources",
+      "url": "https://www.michigan.gov/dnr",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official calendar",
+      "title": "Michigan DNR Hunting Season Calendar",
+      "url": "https://www.michigan.gov/dnr/things-to-do/hunting/hunting-season-calendar",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Deer regulations",
+      "title": "2026 Deer Hunting Regulations Summary",
+      "url": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Bear regulations",
+      "title": "2026 Bear Hunting Regulations Summary",
+      "url": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/bear",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Turkey regulations",
+      "title": "2026 Fall Turkey Hunting Regulations Summary",
+      "url": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/fall-turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Waterfowl regulations",
+      "title": "2026 Waterfowl Hunting Regulations Summary",
+      "url": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/waterfowl",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Small game regulations",
+      "title": "2026 Small Game Hunting Regulations Summary",
+      "url": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/small-game",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Furbearer regulations",
+      "title": "2026 Furbearer Harvest Regulations Summary",
+      "url": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/fur-harvester",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Licensing and fees",
+      "title": "Michigan Fishing and Hunting License Information",
+      "url": "https://www.michigan.gov/dnr/things-to-do/fishing/license-info",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Education",
+      "title": "Recreational Safety and Hunter Education",
+      "url": "https://www.michigan.gov/dnr/education/hunter-rec-edu-safety",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official license portal",
+      "title": "Michigan DNR eLicense",
+      "url": "https://www.mdnr-elicense.com/",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "2027 spring turkey regulations",
+      "title": "2027 Spring Turkey Hunting Regulations Summary",
+      "url": "https://www.michigan.gov/dnr/managing-resources/laws/regulations/spring-turkey-2027",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "unverifiedItems": [
+    "No ordinary 2026–27 moose season was identified in the reviewed Michigan DNR calendar/regulations; check DNR for any special authorization.",
+    "Exact deer DMU/county antlerless limits, antler-point restrictions, bag limits and boundaries require the official 2026 deer digest.",
+    "Exact bear BMU quotas, weapon prohibitions, dog-training quiet periods and hunt-code mapping require the official bear digest.",
+    "Exact 2027 spring turkey quotas, unit boundaries and all legal-method/bag-limit details require the 2027 spring digest.",
+    "This summary does not enumerate every small-game bag limit or furbearer trapping season/species; use the linked DNR summaries.",
+    "No separate statewide youth deer weapon season was identified beyond the Liberty Hunt; eligibility and local special hunts are controlled by the official digest."
+  ],
+  "gear": [
+    {
+      "name": "Vortex Optics Blaze Orange Hunting Vest & Hat Combo",
+      "whyUseful": "A packable visibility layer and cap for hunts where blaze-orange clothing is useful or required. Confirm sizing and the agency’s exact color and coverage rules; this recommendation is not a legal-compliance certification.",
+      "asin": "B0DW3MXC12",
+      "url": "https://www.amazon.com/dp/B0DW3MXC12?tag=fieldseasonhq-20",
+      "verificationUrl": "https://www.amazon.com/Vortex-Optics-Blaze-Orange-Hunting/dp/B0DW3MXC12",
+      "verifiedOn": "2026-11-03"
+    }
+  ]
+}

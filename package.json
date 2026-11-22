@@ -1,0 +1,25 @@
+{
+  "name": "field-season-hq",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run check-content && npm run refresh-research-docs && astro build && npm run check-build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "check-content": "node scripts/validate-content.mjs",
+    "refresh-research-docs": "node scripts/build-research-index.mjs",
+    "check-build": "node scripts/verify-build.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.4.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

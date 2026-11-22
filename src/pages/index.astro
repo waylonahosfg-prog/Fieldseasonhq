@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const modules = import.meta.glob('../data/states/*.json', { eager: true, import: 'default' });
+const states = Object.values(modules).map((item: any) => item).sort((a: any, b: any) => a.sortOrder - b.sortOrder);
+const title = 'Field Season HQ | Hunting Dates, Licenses & Deadlines';
+const description = 'Find state-by-state hunting season dates, license steps, and application deadlines. Every date is linked to an official wildlife agency source.';
+const canonical = 'https://fieldseasonhq.com/';
+---
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Hunt planning, made clearer</span>
+        <h1>Know the season. Check the source. Get out there.</h1>
+        <p>Field Season HQ organizes hunting dates, license steps, hunter education basics, and application deadlines—with official agency sources close at hand.</p>
+        <div class="hero-note">Every date links back to an official source.</div>
+      </div>
+      <div class="hero-visual" aria-hidden="true"><span class="sun-disc"></span><span class="ridge"></span><span class="tree-line"></span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="eyebrow">State guides</span><h2>Choose a state</h2></div>
+        <p>Start with a statewide summary, then use the agency links to check unit, zone, weapon, and special-season details.</p>
+      </div>
+      {states.length ? <div class="state-grid">
+        {states.map((state: any) => <a class="state-card" href={`/${state.slug}/`}>
+          <span class="eyebrow">{state.year || '2026–27'} guide</span>
+          <h3>{state.name}</h3>
+          <p>{state.homepageSummary || `Official-source season dates and planning information for ${state.name}.`}</p>
+          <span class="card-arrow">View state guide <span aria-hidden="true">→</span></span>
+        </a>)}
+      </div> : <p class="empty-state">State guides are being prepared. Check back soon.</p>}
+    </div>
+  </section>
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-heading"><div><span class="eyebrow">How to use this site</span><h2>Clear summaries. Official details.</h2></div></div>
+      <div class="trust-strip" aria-label="Our approach">
+        <span class="trust-item">Dates checked against state agency sources</span>
+        <span class="trust-item">Unit and zone exceptions called out</span>
+        <span class="trust-item">Unconfirmed details clearly marked</span>
+      </div>
+      <div class="prose" style="margin-top:1.4rem">
+        <p>Hunting regulations can vary by species, area, weapon, and license type. Our guides summarize the most useful statewide information, but they are not a substitute for current regulations or an official license.</p>
+        <p>Before you hunt, open the linked agency publication for your specific unit or zone and confirm the rules, dates, tags, and any current emergency notices.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

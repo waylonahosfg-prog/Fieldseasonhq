@@ -1,0 +1,487 @@
+{
+  "slug": "texas",
+  "name": "Texas",
+  "sortOrder": 2,
+  "year": "2026–27",
+  "verifiedOn": "2026-11-03",
+  "metaDescription": "Review Texas hunting dates for 2026–27, including deer zones, turkey, dove and waterfowl, with TPWD license steps, official fees and draw deadlines.",
+  "homepageSummary": "TPWD county, zone, license and drawn-hunt information for Texas.",
+  "intro": "Texas season dates change by county and migratory-bird zone. North and South deer dates, turkey openings, waterfowl zones and county-specific antler or bag rules can all differ, so use the statewide dates as a starting point—not a substitute for the TPWD county listing.",
+  "zoneNote": "TPWD’s county regulations control deer bag limits and antler restrictions; turkey seasons apply only in open counties; waterfowl and goose dates vary by zone. Verify the exact county, zone, property permit and current rules in the Outdoor Annual before hunting.",
+  "agency": {
+    "name": "Texas Parks and Wildlife Department (TPWD)",
+    "url": "https://tpwd.texas.gov/"
+  },
+  "seasonFacts": [
+    {
+      "species": "White-tailed deer",
+      "method": "Archery-only",
+      "dates": "Oct. 3–Nov. 6, 2026",
+      "status": "Published; open through Nov. 6",
+      "scopeAndExceptions": "Applies in counties with an open deer season. Deer seasons exist in 252 of 254 counties; county regulations control bag limits and local restrictions.",
+      "additionalRule": "Archery endorsement is also required for deer at any time in Collin, Dallas, Grayson and Rockwall counties.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/white-tailed-deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "General firearm/regular",
+      "dates": "North Zone Nov. 7, 2026–Jan. 3, 2027; South Zone Nov. 7, 2026–Jan. 17, 2027",
+      "status": "Published; both zones open Nov. 7",
+      "scopeAndExceptions": "North/South zones differ. Exact county bag limits, antler restrictions and closed areas must be checked in TPWD’s county regulations.",
+      "additionalRule": "Annual statewide cap is five deer, no more than three bucks, subject to county rules; MLDP properties are exempt from that annual cap.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/white-tailed-deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Youth-only",
+      "dates": "North Zone Oct. 30–Nov. 1, 2026 and Jan. 4–17, 2027; South Zone Oct. 30–Nov. 1, 2026; South late youth: Not yet published - check Texas Parks and Wildlife Department (official listings differ)",
+      "status": "The October period has ended; North late youth dates are future",
+      "scopeAndExceptions": "Only licensed hunters age 16 or younger; county-specific rules apply. TPWD’s statewide date table and species-page youth section do not fully align for a South late youth period—verify the county page before hunting.",
+      "additionalRule": "Do not assume a South late youth season; confirm the specific county listing.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/white-tailed-deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Muzzleloader-only",
+      "dates": "Jan. 4–17, 2027",
+      "status": "Published; future",
+      "scopeAndExceptions": "Open in 90 counties only; verify the specific county listing and legal equipment.",
+      "additionalRule": "Consult the county table for access, permitted equipment and harvest eligibility.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "White-tailed deer",
+      "method": "Special late",
+      "dates": "North Zone Jan. 4–17; South Zone Jan. 18–31, 2027",
+      "status": "Published; future",
+      "scopeAndExceptions": "County-specific; restricted to antlerless and unbranched-antlered deer.",
+      "additionalRule": "Consult the county table for access, permitted equipment and harvest eligibility.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Mule deer",
+      "method": "Archery-only",
+      "dates": "Panhandle Oct. 3–Nov. 20, 2026; Trans-Pecos and Brewster, Pecos and Terrell counties Oct. 3–Nov. 26, 2026",
+      "status": "Open Nov. 3; Panhandle closes Nov. 20 and the Trans-Pecos county group closes Nov. 26",
+      "scopeAndExceptions": "Only 74 of 254 counties have mule-deer seasons; county rules control.",
+      "additionalRule": "The mule-deer antler restriction does not apply within a CWD zone.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/mule-deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Mule deer",
+      "method": "General firearm/regular",
+      "dates": "Panhandle Nov. 21–Dec. 6, 2026; Trans-Pecos and Brewster, Pecos and Terrell counties Nov. 27–Dec. 13, 2026",
+      "status": "Published; future",
+      "scopeAndExceptions": "Only specified counties are open, with separate regional dates. The annual limit is two mule deer, no more than one buck, subject to county rules.",
+      "additionalRule": "Many named counties require a buck outside antler spread of at least 20 inches; check the current county entry.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/mule-deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Fall archery-only",
+      "dates": "Oct. 3–Nov. 6, 2026",
+      "status": "Published; open through Nov. 6",
+      "scopeAndExceptions": "Only counties with an open fall turkey season; 175 of 254 counties have wild-turkey seasons.",
+      "additionalRule": "Unbearded hens are prohibited statewide under 2026–27 changes; the Upland Game Bird Endorsement is required.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Fall regular",
+      "dates": "North Zone Nov. 7, 2026–Jan. 3, 2027; South Zone Nov. 7, 2026–Jan. 17, 2027; Brooks, Kenedy, Kleberg and Willacy counties Nov. 7, 2026–Feb. 28, 2027",
+      "status": "Published; North/South open Nov. 7",
+      "scopeAndExceptions": "Zone and named-county dates differ. Matagorda and Wharton counties are closed to wild turkey in 2026–27.",
+      "additionalRule": "All wild turkeys must be immediately tagged and reported within 24 hours.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Fall youth-only",
+      "dates": "North Oct. 30–Nov. 1, 2026 and Jan. 4–17, 2027; South Oct. 30–Nov. 1, 2026 and Jan. 18–31, 2027; Brooks, Kenedy, Kleberg and Willacy Oct. 30–Nov. 1, 2026",
+      "status": "Early youth dates ended; late periods are future",
+      "scopeAndExceptions": "Zone/county exceptions apply; county regulations control open season and bag composition.",
+      "additionalRule": "Upland Game Bird Endorsement required unless exempt under license rules.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Spring regular",
+      "dates": "North Apr. 3–May 16; South Mar. 20–May 2; One-Turkey counties Apr. 1–30; East Apr. 22–May 14, 2027",
+      "status": "Published; future",
+      "scopeAndExceptions": "North, South, East and one-gobbler county rules differ; Matagorda and Wharton remain closed. Consult county listings.",
+      "additionalRule": "The Upland Game Bird Endorsement is required; harvest reporting remains mandatory.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Wild turkey",
+      "method": "Spring youth-only",
+      "dates": "North Mar. 27–28 and May 22–23; South Mar. 13–14 and May 8–9, 2027",
+      "status": "Published; future",
+      "scopeAndExceptions": "North, South, East and one-gobbler county rules differ; Matagorda and Wharton remain closed. Consult county listings.",
+      "additionalRule": "The Upland Game Bird Endorsement is required; harvest reporting remains mandatory.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/turkey",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Dove",
+      "method": "Regular and falconry",
+      "dates": "Regular: North Sept. 1–Nov. 8 and Dec. 18, 2026–Jan. 7, 2027; Central Sept. 1–Oct. 25 and Dec. 11, 2026–Jan. 14, 2027; South Sept. 1–Oct. 25 and Dec. 18, 2026–Jan. 21, 2027. Falconry statewide Nov. 13–29, 2026",
+      "status": "North first segment is open through Nov. 8; Central/South first segments ended; late and falconry dates are upcoming",
+      "scopeAndExceptions": "North, Central and South zones differ; all counties have dove seasons. Special White-winged Dove Days were eliminated for 2026–27.",
+      "additionalRule": "Migratory Game Bird Endorsement and HIP certification are required.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/dove",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Duck",
+      "method": "Youth, veterans/active duty and regular",
+      "dates": "Special days: High Plains Oct. 17–18; North Nov. 7–8; South Oct. 31–Nov. 1, 2026. Regular: High Plains Oct. 24–25 and Oct. 30, 2026–Jan. 31, 2027; North Nov. 14–29 and Dec. 5, 2026–Jan. 31, 2027; South Nov. 7–29 and Dec. 12, 2026–Jan. 31, 2027",
+      "status": "High Plains and South special days ended; North special days begin Nov. 7; regular segments vary by zone",
+      "scopeAndExceptions": "High Plains, North and South management units have different dates and splits. Dusky ducks are closed the first five days in each zone.",
+      "additionalRule": "Hunters need the Texas Migratory Game Bird Endorsement, HIP and a Federal Duck Stamp at age 16+.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/duck",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Goose",
+      "method": "Early Canada, dark goose and light goose",
+      "dates": "Early Canada East Sept. 12–27, 2026; regular West Nov. 7, 2026–Feb. 7, 2027; East dark Nov. 7, 2026–Jan. 31, 2027 and light Nov. 7, 2026–Feb. 19, 2027",
+      "status": "Early Canada season ended; regular West/East dates begin Nov. 7",
+      "scopeAndExceptions": "Western and Eastern zones differ; all counties have goose seasons. Youth may take geese during the applicable duck-zone youth days.",
+      "additionalRule": "Migratory endorsement, HIP and federal waterfowl stamp requirements apply to waterfowl hunters age 16+.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/goose",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Sandhill crane",
+      "method": "Regular",
+      "dates": "Zone A Oct. 31, 2026–Jan. 31, 2027; Zone B Nov. 27, 2026–Jan. 31, 2027; Zone C Dec. 12, 2026–Jan. 17, 2027",
+      "status": "Zone A open; Zones B and C future",
+      "scopeAndExceptions": "191 of 254 counties have crane seasons; Zone C has a Gulf-area closed area.",
+      "additionalRule": "Requires hunting license, Migratory Game Bird Endorsement, HIP and a free Federal Sandhill Crane Hunting Permit.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/sandhill-crane",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Quail",
+      "method": "Regular",
+      "dates": "Nov. 1, 2026–Feb. 28, 2027",
+      "status": "Published and open on Nov. 3",
+      "scopeAndExceptions": "Statewide dates; county regulations control local rules.",
+      "additionalRule": "Upland Game Bird Endorsement required; no open season for Mearns (Montezuma) quail.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/quail",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Javelina",
+      "method": "General",
+      "dates": "North Zone Oct. 1, 2026–Feb. 28, 2027; South Zone Sept. 1, 2026–Aug. 31, 2027",
+      "status": "Published and open on Nov. 3",
+      "scopeAndExceptions": "North and South zone dates differ; county regulations control bag limits and availability.",
+      "additionalRule": "Check the county table for the exact local rules.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pronghorn",
+      "method": "General",
+      "dates": "Oct. 3–18, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Only 41 of 254 counties; public drawn hunts and private-land opportunities have separate application categories.",
+      "additionalRule": "County and permit-specific rules apply.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Alligator",
+      "method": "General; core and non-core property rules",
+      "dates": "Core counties and specially tagged properties Sept. 10–30, 2026; non-core counties Apr. 1–June 30, 2027",
+      "status": "Core fall season ended; non-core spring season is future",
+      "scopeAndExceptions": "All counties have an alligator season, but dates differ by core/non-core status and take is property-based.",
+      "additionalRule": "CITES tags and private-property permissions apply; non-core annual limit is one per person per license year with reporting/tag-fee procedures.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/alligator",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Squirrel",
+      "method": "General",
+      "dates": "East Zone Oct. 1, 2026–Feb. 28, 2027 and May 1–31, 2027; other open counties Sept. 1, 2026–Aug. 31, 2027",
+      "status": "Open as of Nov. 3",
+      "scopeAndExceptions": "East-zone and other-county dates differ; county table controls.",
+      "additionalRule": "Confirm the county’s open season and limits in the Outdoor Annual.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Pheasant",
+      "method": "General",
+      "dates": "Dec. 5, 2026–Jan. 3, 2027",
+      "status": "Future",
+      "scopeAndExceptions": "County availability and local rules are in the TPWD county listing.",
+      "additionalRule": "Upland Game Bird Endorsement applies where required.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Chachalaca",
+      "method": "General",
+      "dates": "Nov. 1, 2026–Feb. 28, 2027 in Cameron, Hidalgo, Starr and Willacy counties",
+      "status": "Open in the listed counties",
+      "scopeAndExceptions": "Only the four named South Texas counties.",
+      "additionalRule": "Upland Game Bird Endorsement required.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Rails, gallinules and moorhens",
+      "method": "Migratory-bird methods",
+      "dates": "Sept. 19–27, 2026 and Nov. 7, 2026–Jan. 6, 2027",
+      "status": "First segment ended; second opens Nov. 7",
+      "scopeAndExceptions": "Season dates and bag limits are set in the statewide table; verify local federal migratory-bird restrictions.",
+      "additionalRule": "Migratory Game Bird Endorsement and HIP apply.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Snipe",
+      "method": "Migratory-bird methods",
+      "dates": "Nov. 7, 2026–Feb. 21, 2027",
+      "status": "Future; opens Nov. 7",
+      "scopeAndExceptions": "Statewide date table; verify local federal migratory-bird restrictions.",
+      "additionalRule": "Migratory Game Bird Endorsement and HIP apply.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Teal",
+      "method": "Migratory-bird methods",
+      "dates": "Sept. 19–27, 2026",
+      "status": "Ended before Nov. 3",
+      "scopeAndExceptions": "Statewide special season; check migratory-bird rules for legal identification and limits.",
+      "additionalRule": "Migratory Game Bird Endorsement and HIP apply.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Woodcock",
+      "method": "Migratory-bird methods",
+      "dates": "Dec. 18, 2026–Jan. 31, 2027",
+      "status": "Future",
+      "scopeAndExceptions": "Statewide date table; verify local federal migratory-bird restrictions.",
+      "additionalRule": "Migratory Game Bird Endorsement and HIP apply.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Rabbits and hares",
+      "method": "General",
+      "dates": "No closed season (statewide table), subject to local rules",
+      "status": "No closed season listed in the official statewide table",
+      "scopeAndExceptions": "Check the county table and property-specific restrictions.",
+      "additionalRule": "The cited date table is the official source for current season status.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "species": "Elk, moose and bear",
+      "method": "General statewide season not confirmed",
+      "dates": "Not yet published - check TPWD; no Texas general-season dates verified in the official 2026–27 table/species pages reviewed",
+      "status": "No statewide season confirmed in reviewed TPWD sources",
+      "scopeAndExceptions": "Do not confuse exotic/private-ranch opportunities or CWD references with a statewide general hunting season.",
+      "additionalRule": "Check TPWD before treating any Texas opportunity as a season.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/nongame-and-other-species",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "licenseAndEducation": [
+    {
+      "topic": "Base hunting license",
+      "fact": "A license is required to hunt any animal, bird, frog or turtle, subject to listed exceptions. Licenses generally run through Aug. 31; new licenses go on sale Aug. 15. Confirmed prices: resident $25, youth $7, nonresident general $315, nonresident 5-day small game/exotic $48 (not valid for turkey, deer, alligator, pronghorn or bighorn sheep).",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/hunting-licenses-and-permits/hunting-licenses",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Where/how to buy",
+      "fact": "Buy online through TPWD’s license sales portal or from TPWD license retailers. Drawn hunts are online-only and require the hunter’s Customer Number, email and online payment.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/hunting-licenses-and-permits/hunting-licenses",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Archery endorsement",
+      "fact": "The Archery Hunting Endorsement costs $7 and is required for game animals during an archery-only season and deer at any time in Collin, Dallas, Grayson or Rockwall counties.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/hunting-licenses-and-permits/hunting-endorsements",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Upland game bird endorsement",
+      "fact": "The $7 Upland Game Bird Endorsement is required for wild turkey, pheasant, quail and chachalaca. It cannot be used to hunt turkey with the nonresident special 5-day license.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/hunting-licenses-and-permits/hunting-endorsements",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Migratory endorsement, HIP and federal stamp",
+      "fact": "The Texas Migratory Game Bird Endorsement costs $7 and is required for waterfowl, coot, rail, gallinule, snipe, dove, sandhill crane and woodcock. HIP applies. A Federal Duck Stamp costs $25 plus fulfillment and is required for waterfowl hunters age 16+.",
+      "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/hunting-licenses-and-permits/hunting-endorsements",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Hunter education",
+      "fact": "Hunters born on or after Sept. 2, 1971 must complete hunter education. Ages 9–16 may hunt while accompanied; age 17+ may use a one-time $10 deferral while accompanied. Proof must be carried when hunting, but is not required to purchase a license. Certification minimum age is 9 and certification is for life.",
+      "sourceUrl": "https://tpwd.texas.gov/education/hunter-education/faq",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Hunter education course fees",
+      "fact": "Classroom and Internet+Field courses cost $15 paid to the instructor, with possible facility/range fees; online-only is for age 17+ and provider fees vary.",
+      "sourceUrl": "https://tpwd.texas.gov/education/hunter-education",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "topic": "Digital license and tags",
+      "fact": "Digital licenses are available online; digital tag holders must use the Texas Hunt & Fish app for digital tags and keep the digital license available in the field.",
+      "sourceUrl": "https://tpwd.texas.gov/newsmedia/releases/?req=20260904a",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "deadlines": [
+    {
+      "applicationOrDeadline": "2026–27 drawn hunts: alligator, guided exotic and private-land dove",
+      "dateOrStatus": "Application deadline Aug. 1, 2026; passed.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/deadlines.phtml",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026–27 drawn hunts: archery deer, javelina and pronghorn",
+      "dateOrStatus": "Application deadline Aug. 15, 2026; passed.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/deadlines.phtml",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026–27 private-land antlerless/spike and youth gun deer",
+      "dateOrStatus": "Application deadline Sept. 1, 2026; passed.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/deadlines.phtml",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026–27 gun deer and NWR deer hunts",
+      "dateOrStatus": "Application deadlines Sept. 15 and Oct. 1, 2026 by hunt category; both passed.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/deadlines.phtml",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026–27 exotic and private-land quail",
+      "dateOrStatus": "Application deadline Oct. 15, 2026; passed.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/deadlines.phtml",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2026–27 e-Postcard predator, turkey, feral hog and waterfowl",
+      "dateOrStatus": "Application deadline Nov. 1, 2026; passed by Nov. 3. Initial draw listed Nov. 4; anticipated permit deadline Nov. 14.",
+      "relevantYear": "2026–27",
+      "sourceUrl": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/deadlines.phtml",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "applicationOrDeadline": "2027–28 season applications and deadlines",
+      "dateOrStatus": "Not yet published - check TPWD Drawn Hunt Deadlines and Outdoor Annual.",
+      "relevantYear": "2027–28",
+      "sourceUrl": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/deadlines.phtml",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "sources": [
+    {
+      "category": "Official 2026–27 dates",
+      "title": "2026–2027 Hunting Season Dates",
+      "url": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/2026-2027-hunting-season-dates",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official regulations",
+      "title": "TPWD Outdoor Annual hunting regulations",
+      "url": "https://tpwd.texas.gov/regulations/outdoor-annual/hunting/",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official regulations PDF",
+      "title": "Texas Hunting Regulations PDF",
+      "url": "https://tpwd.texas.gov/publications/pwdpubs/media/pwd_bk_l2000_1170a.pdf",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Species regulations",
+      "title": "White-tailed deer, mule deer, turkey, dove, duck, goose, crane, alligator and quail",
+      "url": "https://tpwd.texas.gov/regulations/outdoor-annual/regs/animals/white-tailed-deer",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official licenses",
+      "title": "Hunting licenses",
+      "url": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/hunting-licenses-and-permits/hunting-licenses",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official endorsements",
+      "title": "Hunting endorsements",
+      "url": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/hunting-licenses-and-permits/hunting-endorsements",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Hunter education",
+      "title": "Hunter Education FAQ and course details",
+      "url": "https://tpwd.texas.gov/education/hunter-education/faq",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official drawn-hunt portal",
+      "title": "TPWD Drawn Hunts",
+      "url": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "Official deadlines",
+      "title": "2026–27 Drawn Hunt Deadlines",
+      "url": "https://tpwd.texas.gov/huntwild/hunt/public/public_hunt_drawing/deadlines.phtml",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "category": "2026–27 rule changes",
+      "title": "What is New for Hunting Season 2026–27",
+      "url": "https://tpwd.texas.gov/newsmedia/releases/?req=20260904a",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "unverifiedItems": [
+    "No official general-season dates for bear or moose were located in the reviewed TPWD 2026–27 table/species pages; check TPWD before treating any opportunity as a Texas season.",
+    "No official statewide Texas general elk season was located; exotic/private-ranch opportunities are not summarized as statewide public seasons.",
+    "2027–28 season dates, license fees and draw deadlines were not yet published as of Nov. 3, 2026.",
+    "County-specific deer, turkey, alligator, crane, mule deer, pronghorn and local bag limits/closures require TPWD’s county listing; this page does not replace it.",
+    "The TPWD statewide deer table and species-page youth text do not fully align on a South Zone late-youth period; verify the county page directly."
+  ],
+  "gear": [
+    {
+      "name": "Vortex Optics Blaze Orange Hunting Vest & Hat Combo",
+      "whyUseful": "A packable visibility layer and cap for hunts where blaze-orange clothing is useful or required. Confirm sizing and the agency’s exact color and coverage rules; this recommendation is not a legal-compliance certification.",
+      "asin": "B0DW3MXC12",
+      "url": "https://www.amazon.com/dp/B0DW3MXC12?tag=fieldseasonhq-20",
+      "verificationUrl": "https://www.amazon.com/Vortex-Optics-Blaze-Orange-Hunting/dp/B0DW3MXC12",
+      "verifiedOn": "2026-11-03"
+    }
+  ]
+}

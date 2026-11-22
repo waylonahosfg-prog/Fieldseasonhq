@@ -1,0 +1,76 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  structuredData?: Record<string, unknown>;
+}
+
+const { title, description, canonical, structuredData } = Astro.props;
+const stateModules = import.meta.glob('../data/states/*.json', { eager: true, import: 'default' });
+const states = Object.values(stateModules).map((item: any) => item).sort((a: any, b: any) => a.sortOrder - b.sortOrder);
+const reviewedOn = states.map((state: any) => state.verifiedOn).sort().at(-1) || '2026-11-03';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173b31" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Field Season HQ" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    {structuredData && <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="/" aria-label="Field Season HQ home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="brand-text">Field Season <b>HQ</b></span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <details class="state-menu">
+            <summary>States <span aria-hidden="true">▾</span></summary>
+            <div class="state-menu-list">
+              {states.map((state: any) => <a href={`/${state.slug}/`}>{state.name}</a>)}
+            </div>
+          </details>
+          <a href="/about/">About</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content"><slot /></main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="brand brand-light" href="/">
+            <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+            <span class="brand-text">Field Season <b>HQ</b></span>
+          </a>
+          <p>Season dates and hunting basics, organized by state.</p>
+        </div>
+        <div class="footer-notices">
+          <p><strong>Important:</strong> Regulations change. Always confirm with the relevant state wildlife agency before you hunt. This site is an independent reference and does not replace official regulations.</p>
+          <p class="affiliate-note">As an Amazon Associate I earn from qualifying purchases.</p>
+          <p class="last-verified">Last verified: <time datetime={reviewedOn}>{reviewedOn}</time>. Individual facts carry their own review dates.</p>
+          <p class="footer-agencies">{states.map((state: any) => <a href={state.agency.url} target="_blank" rel="noopener noreferrer">{state.agency.name} ↗</a>)}</p>
+        </div>
+        <div class="footer-bottom">
+          <span>© {new Date().getFullYear()} Field Season HQ</span>
+          <span>Built for clear, careful planning.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
