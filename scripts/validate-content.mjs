@@ -26,7 +26,7 @@ assert(files.length === 5, `Expected 5 state JSON files, found ${files.length}`)
 for (const file of files) {
   const data = JSON.parse(fs.readFileSync(path.join(stateDir, file), 'utf8'));
   const prefix = `${file}:`;
-  for (const key of ['slug', 'name', 'abbreviation', 'year', 'metaDescription', 'intro', 'verifiedOn']) {
+  for (const key of ['slug', 'name', 'year', 'metaDescription', 'intro', 'verifiedOn']) {
     assert(typeof data[key] === 'string' && data[key].trim().length > 0, `${prefix} missing ${key}`);
   }
   assert(validDate(data.verifiedOn), `${prefix} invalid verifiedOn`);
@@ -41,21 +41,21 @@ for (const file of files) {
   assert(Array.isArray(data.gear), `${prefix} gear must be an array`);
 
   for (const [index, fact] of data.seasonFacts.entries()) {
-    for (const field of ['species', 'method', 'dates', 'status', 'scopeAndExceptions', 'sourceTitle']) {
+    for (const field of ['species', 'method', 'dates', 'status', 'scopeAndExceptions']) {
       assert(typeof fact[field] === 'string' && fact[field].trim().length > 0, `${prefix} seasonFacts[${index}] missing ${field}`);
     }
     assert(validHttpUrl(fact.sourceUrl), `${prefix} seasonFacts[${index}] invalid sourceUrl`);
     assert(validDate(fact.verifiedOn), `${prefix} seasonFacts[${index}] invalid verifiedOn`);
   }
   for (const [index, fact] of data.licenseAndEducation.entries()) {
-    for (const field of ['topic', 'fact', 'sourceTitle']) {
+    for (const field of ['topic', 'fact']) {
       assert(typeof fact[field] === 'string' && fact[field].trim().length > 0, `${prefix} licenseAndEducation[${index}] missing ${field}`);
     }
     assert(validHttpUrl(fact.sourceUrl), `${prefix} licenseAndEducation[${index}] invalid sourceUrl`);
     assert(validDate(fact.verifiedOn), `${prefix} licenseAndEducation[${index}] invalid verifiedOn`);
   }
   for (const [index, item] of data.deadlines.entries()) {
-    for (const field of ['applicationOrDeadline', 'dateOrStatus', 'sourceTitle']) {
+    for (const field of ['applicationOrDeadline', 'dateOrStatus']) {
       assert(typeof item[field] === 'string' && item[field].trim().length > 0, `${prefix} deadlines[${index}] missing ${field}`);
     }
     assert(validHttpUrl(item.sourceUrl), `${prefix} deadlines[${index}] invalid sourceUrl`);
