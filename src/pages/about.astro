@@ -1,17 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const title = 'About Field Season HQ';
-const description = 'Learn how Field Season HQ summarizes hunting dates and license information from official state wildlife agency sources.';
+const title = 'About & Verification Standards | Field Season HQ';
+const description = 'How Field Season HQ compiles, verifies, and cites official 2026–2027 state hunting season dates, licensing rules, and draw deadlines.';
 const canonical = 'https://fieldseasonhq.com/about/';
 ---
 <BaseLayout title={title} description={description} canonical={canonical}>
   <section class="about-section"><div class="container prose">
-    <span class="eyebrow">About</span>
-    <h1>Useful summaries, grounded in official sources.</h1>
-    <p>Field Season HQ is designed to help hunters find state season dates, license information, education requirements, and application deadlines without losing sight of the official regulations.</p>
-    <h2>How information is handled</h2>
-    <p>State guide facts link to an official wildlife agency page, regulations publication, or licensing portal. If a fact could not be confirmed in an official source, it should be marked as unpublished or unverified rather than guessed.</p>
-    <h2>Always check before you hunt</h2>
-    <p>Dates and regulations can change, and local details may apply. Confirm the current rules for your species, unit or zone, method, and license directly with the state agency before heading out.</p>
+    <span class="eyebrow">Methodology</span>
+    <h1>About Field Season HQ</h1>
+    <p class="last-verified">Last updated: November 22, 2026</p>
+
+    <p>Field Season HQ (fieldseasonhq.com) is an independent hunting season reference built to give hunters fast, clean access to statewide season dates, legal hunting methods, licensing basics, and draw deadlines without popups or clutter.</p>
+
+    <h2>How We Verify Hunting Regulations</h2>
+    <ul>
+      <li><strong>Primary Government Sources Only:</strong> Every season window, license requirement, and application deadline is compiled directly from official state wildlife agency regulation booklets, administrative codes, and licensing portals.</li>
+      <li><strong>Row-Level Citations:</strong> Each fact in our tables includes a direct link to the governing agency source and its verification date so you can confirm unit-specific rules in one click.</li>
+      <li><strong>Always Confirm Before You Hunt:</strong> Wildlife commissions periodically issue emergency closures, chronic wasting disease (CWD) transport updates, or quota adjustments. Always verify your exact hunt unit with the state agency before going afield.</li>
+    </ul>
+
+    <h2>Affiliate Disclosure</h2>
+    <p><strong>As an Amazon Associate I earn from qualifying purchases.</strong></p>
+    <p>Field Season HQ includes curated field gear checklists matched to state species and visibility rules. Clicking an Amazon product link does not add any extra cost to your purchase. For full details, see our <a href="/privacy/">Privacy Policy &amp; Affiliate Disclosure</a>.</p>
   </div></section>
 </BaseLayout>
