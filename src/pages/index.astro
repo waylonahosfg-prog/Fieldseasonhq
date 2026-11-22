@@ -7,6 +7,14 @@ const states = Object.values(stateModules).map((item: any) => item).sort((a: any
 const reviewedOn = states.map((state: any) => state.verifiedOn).sort().at(-1) || '2026-11-22';
 const totalSpeciesPages = states.reduce((acc: number, s: any) => acc + new Set((s.seasonFacts || []).map((f: any) => f.species)).size, 0);
 
+const STATE_ABBR: Record<string, string> = {
+  colorado: 'CO',
+  michigan: 'MI',
+  pennsylvania: 'PA',
+  texas: 'TX',
+  wisconsin: 'WI'
+};
+
 const title = 'Field Season HQ | 2026–2027 State Hunting Season Dates & Rules';
 const description = 'Verified 2026–2027 hunting season dates, license requirements, hunter education rules, draw deadlines, and official wildlife agency citations by state.';
 const canonical = 'https://fieldseasonhq.com/';
@@ -55,11 +63,12 @@ const websiteSchema = {
         {states.map((state: any) => {
           const speciesCount = new Set((state.seasonFacts || []).map((f: any) => f.species)).size;
           const popularSpecies = [...new Set((state.seasonFacts || []).map((f: any) => f.species))].slice(0, 3) as string[];
+          const badge = state.abbreviation || STATE_ABBR[state.slug] || state.slug.slice(0, 2).toUpperCase();
           return (
             <article class="state-card">
               <div>
                 <div class="card-top">
-                  <span class="state-badge">{state.abbreviation}</span>
+                  <span class="state-badge">{badge}</span>
                   <span class="verified-chip">Verified {state.verifiedOn}</span>
                 </div>
                 <h3><a href={`/${state.slug}/`}>{state.name} Hunting Seasons</a></h3>
