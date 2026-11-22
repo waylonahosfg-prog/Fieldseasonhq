@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getGearForState } from '../data/gearCatalog';
+import { slugifySpecies, formatEvergreenStatus } from '../utils/formatters';
 
 export function getStaticPaths() {
   const files = import.meta.glob('../data/states/*.json', { eager: true, import: 'default' });
@@ -67,18 +68,18 @@ const webPageSchema = {
   <section class="container content-section" id="seasons">
     <span class="section-kicker">2026–27 dates</span>
     <h2>Hunting seasons by species and method</h2>
-    <p class="lead">Statewide summaries for the 2026–27 hunting season. Always verify exact unit, zone, license, legal method, and special-season rules in the linked official agency regulations before hunting.</p>
+    <p class="lead">Statewide summaries for the 2026–27 hunting season. Select any species heading for its dedicated guide, and always confirm exact unit rules in the linked official agency regulations.</p>
     {speciesGroups.map((species: any, idx: number) => <>
       <section class="species-block" aria-label={`${species} season dates`}>
         <div class="species-header">
-          <h3>{species}</h3>
+          <h3><a href={`/${state.slug}/${slugifySpecies(species)}/`}>{species}</a></h3>
           <span class="scroll-hint" aria-hidden="true">Swipe table →</span>
         </div>
         <div class="table-wrap" role="region" aria-label={`${species} season table; scroll horizontally on small screens`} tabindex="0">
           <table class="season-table">
             <thead><tr><th scope="col">Season / method</th><th scope="col">Dates</th><th scope="col">Season window</th><th scope="col">Area &amp; exceptions</th><th scope="col">Source</th></tr></thead>
             <tbody>{seasonFacts.filter((fact: any) => fact.species === species).map((fact: any) => <tr>
-              <td>{fact.method}</td><td>{fact.dates}</td><td>{fact.status}</td>
+              <td>{fact.method}</td><td>{fact.dates}</td><td>{formatEvergreenStatus(fact.status)}</td>
               <td>{fact.scopeAndExceptions}{fact.additionalRule ? ` ${fact.additionalRule}` : ''}</td>
               <td><a class="source-link" href={fact.sourceUrl} target="_blank" rel="noopener noreferrer">Official source ↗</a><br /><small>Verified {fact.verifiedOn}</small></td>
             </tr>)}</tbody>
