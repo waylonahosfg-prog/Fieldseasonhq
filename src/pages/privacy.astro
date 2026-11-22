@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const title = 'Privacy Policy & Affiliate Disclosure | Field Season HQ';
+const description = 'Privacy policy, cookie notice, and Amazon Associates affiliate disclosure for Field Season HQ (fieldseasonhq.com).';
+const canonical = 'https://fieldseasonhq.com/privacy/';
+---
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <section class="about-section"><div class="container prose">
+    <span class="eyebrow">Policies</span>
+    <h1>Privacy Policy &amp; Affiliate Disclosure</h1>
+    <p class="last-verified">Last updated: November 22, 2026</p>
+
+    <h2>Information We Collect</h2>
+    <p>Field Season HQ (fieldseasonhq.com) is a static reference website. We do not require user accounts, collect personal form submissions, or run invasive behavioral tracking scripts on our pages.</p>
+    <p>Like most websites, our hosting infrastructure (Vercel) may record standard server access logs—such as IP address, browser user agent, referring URL, and pages requested—strictly for security, uptime monitoring, and performance diagnostics.</p>
+
+    <h2>Amazon Associates Disclosure &amp; Third-Party Cookies</h2>
+    <p><strong>As an Amazon Associate I earn from qualifying purchases.</strong></p>
+    <p>Field Season HQ participates in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</p>
+    <p>When you click a product link to Amazon.com on this site, Amazon may place cookies or use similar technologies in your browser to track referrals and attribute qualifying purchases. Any information collected after you leave fieldseasonhq.com is governed by Amazon’s own Privacy Notice.</p>
+
+    <h2>External Wildlife Agency Links</h2>
+    <p>Our state hunting guides link directly to official state wildlife agency websites, PDF regulation brochures, and licensing portals. We do not control the privacy practices or content of external government websites.</p>
+
+    <h2>Contact</h2>
+    <p>If you spot a regulation update or have a question about this policy, visit our <a href="/about/">About page</a> for how we verify and maintain state hunting records.</p>
+  </div></section>
+</BaseLayout>
