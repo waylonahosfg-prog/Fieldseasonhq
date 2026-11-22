@@ -1,0 +1,41 @@
+name: IndexNow & Weekly Regulatory Health Audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/data/**'
+      - 'src/pages/**'
+      - 'public/*.txt'
+  schedule:
+    - cron: '0 13 * * 1'
+  workflow_dispatch:
+
+jobs:
+  indexnow-on-deploy:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npm run build
+      - name: Wait 45s for Vercel edge deployment
+        run: sleep 45
+      - name: Submit sitemap URLs to IndexNow
+        run: node scripts/submit-indexnow.mjs
+
+  weekly-citation-and-freshness:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check official agency URLs for 404s
+        run: node scripts/check-links.mjs
+      - name: Check regulation verification freshness
+        run: node scripts/check-freshness.mjs
