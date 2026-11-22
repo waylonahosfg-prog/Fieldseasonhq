@@ -2,8 +2,19 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const root = path.join(process.cwd(), 'dist');
+const slugifySpecies = (species) =>
+  species
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
 const states = fs.readdirSync('src/data/states').filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(`src/data/states/${f}`, 'utf8')));
-const pages = ['/', '/about/', '/privacy/', ...states.map((state) => `/${state.slug}/`)];
+const speciesRoutes = states.flatMap((state) => {
+  const uniqueSpecies = [...new Set((state.seasonFacts || []).map((f) => f.species))];
+  return uniqueSpecies.map((sp) => `/${state.slug}/${slugifySpecies(sp)}/`);
+});
+const pages = ['/', '/about/', '/privacy/', ...states.map((state) => `/${state.slug}/`), ...speciesRoutes];
 const errors = [];
 const assert = (condition, message) => { if (!condition) errors.push(message); };
 for (const route of pages) {
