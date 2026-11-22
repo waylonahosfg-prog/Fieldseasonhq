@@ -22,13 +22,22 @@ const validAmazonUrl = (value) => {
   }
 };
 
-assert(files.length === 5, `Expected 5 state JSON files, found ${files.length}`);
+assert(files.length >= 5, `Expected at least 5 state JSON files, found ${files.length}`);
+
+const seenIntros = new Set();
+const seenMeta = new Set();
+
 for (const file of files) {
   const data = JSON.parse(fs.readFileSync(path.join(stateDir, file), 'utf8'));
   const prefix = `${file}:`;
   for (const key of ['slug', 'name', 'year', 'metaDescription', 'intro', 'verifiedOn']) {
     assert(typeof data[key] === 'string' && data[key].trim().length > 0, `${prefix} missing ${key}`);
   }
+  assert(!seenIntros.has(data.intro.trim()), `${prefix} duplicate intro detected (anti-scaled-content check)`);
+  assert(!seenMeta.has(data.metaDescription.trim()), `${prefix} duplicate metaDescription detected`);
+  seenIntros.add(data.intro.trim());
+  seenMeta.add(data.metaDescription.trim());
+
   assert(validDate(data.verifiedOn), `${prefix} invalid verifiedOn`);
   assert(`${data.name} Hunting Season Dates 2026 | Field Season HQ`.length <= 60, `${prefix} title exceeds 60 characters`);
   assert(data.metaDescription.length >= 110 && data.metaDescription.length <= 165, `${prefix} metaDescription length (${data.metaDescription.length}) outside 110..165`);
@@ -77,4 +86,4 @@ if (errors.length) {
   console.error('Content validation failed:\n' + errors.join('\n'));
   process.exit(1);
 }
-console.log(`Validated ${files.length} state files and dynamic gear catalog cleanly.`);
+console.log(`Validated ${files.length} state files (unique copy verified) and dynamic gear catalog cleanly.`);
