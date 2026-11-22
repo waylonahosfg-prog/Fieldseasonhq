@@ -8,6 +8,7 @@ export const GET: APIRoute = () => {
   const pages = [
     { path: '/', date: latest },
     { path: '/about/', date: latest },
+    { path: '/privacy/', date: latest },
     ...states.map((state) => ({ path: `/${state.slug}/`, date: state.verifiedOn }))
   ];
   const urls = pages.map((page) => `<url><loc>https://fieldseasonhq.com${page.path}</loc><lastmod>${page.date}</lastmod></url>`).join('');
