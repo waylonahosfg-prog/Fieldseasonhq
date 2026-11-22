@@ -1,0 +1,184 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { GEAR_CATALOG } from '../../data/gearCatalog';
+import { slugifySpecies, formatEvergreenStatus } from '../../utils/formatters';
+
+export function getStaticPaths() {
+  const files = import.meta.glob('../../data/states/*.json', { eager: true, import: 'default' });
+  const paths: Array<{ params: { slug: string; species: string }; props: { state: any; speciesName: string; speciesSlug: string } }> = [];
+
+  for (const state of Object.values(files) as any[]) {
+    const uniqueSpecies = [...new Set((state.seasonFacts || []).map((f: any) => f.species))] as string[];
+    for (const speciesName of uniqueSpecies) {
+      const speciesSlug = slugifySpecies(speciesName);
+      paths.push({
+        params: { slug: state.slug, species: speciesSlug },
+        props: { state, speciesName, speciesSlug }
+      });
+    }
+  }
+  return paths;
+}
+
+const { state, speciesName, speciesSlug } = Astro.props;
+const canonical = `https://fieldseasonhq.com/${state.slug}/${speciesSlug}/`;
+const parentUrl = `https://fieldseasonhq.com/${state.slug}/`;
+const title = `${state.name} ${speciesName} Season Dates 2026–2027 | Field Season HQ`;
+const description = `Official ${state.name} ${speciesName.toLowerCase()} hunting season dates for 2026–2027, legal methods, bag limits, license rules, and ${state.agency.name} regulation links.`;
+
+const speciesFacts = (state.seasonFacts || []).filter((f: any) => f.species === speciesName);
+const allSpecies = [...new Set((state.seasonFacts || []).map((f: any) => f.species))] as string[];
+const siblingSpecies = allSpecies.filter((sp) => sp !== speciesName);
+
+const spLower = speciesName.toLowerCase();
+const matchedGear = GEAR_CATALOG.filter((item) => {
+  if (item.matchStates?.includes(state.slug)) return true;
+  if (!item.matchSpecies) return true;
+  return item.matchSpecies.some((kw) => spLower.includes(kw));
+}).sort((a, b) => a.priority - b.priority);
+
+const speciesGear = (matchedGear.length >= 3 ? matchedGear : [...matchedGear, ...GEAR_CATALOG])
+  .filter((item, index, arr) => arr.findIndex((x) => x.id === item.id) === index)
+  .slice(0, 4);
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://fieldseasonhq.com/' },
+    { '@type': 'ListItem', position: 2, name: state.name, item: parentUrl },
+    { '@type': 'ListItem', position: 3, name: speciesName, item: canonical }
+  ]
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: `${state.name} ${speciesName} Hunting Season Dates 2026–2027`,
+  description,
+  url: canonical,
+  dateModified: state.verifiedOn,
+  publisher: {
+    '@type': 'Organization',
+    name: 'Field Season HQ',
+    url: 'https://fieldseasonhq.com/'
+  }
+};
+---
+<BaseLayout title={title} description={description} canonical={canonical} structuredData={[breadcrumbSchema, webPageSchema]}>
+  <section class="state-hero">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href={`/${state.slug}/`}>{state.name}</a></li>
+          <li aria-current="page">{speciesName}</li>
+        </ol>
+      </nav>
+      <span class="eyebrow">{state.name} · {state.year || '2026–27'} season</span>
+      <h1>{state.name} {speciesName} Season Dates 2026–2027</h1>
+      <p>Verified {state.name} {speciesName.toLowerCase()} season windows, legal hunting methods, zone exceptions, and direct {state.agency.name} regulatory citations.</p>
+      <div class="state-meta">
+        <span>Official agency: <a href={state.agency.url} target="_blank" rel="noopener noreferrer">{state.agency.name} ↗</a></span>
+        <span>Last verified: <time datetime={state.verifiedOn}>{state.verifiedOn}</time></span>
+      </div>
+      <nav class="quick-links" aria-label="On this page">
+        <a href="#dates">Season dates</a>
+        <a href="#gear">{speciesName} gear</a>
+        <a href="#rules">License &amp; rules</a>
+        <a href={`/${state.slug}/`}>All {state.name} seasons</a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="container content-section" id="dates">
+    <span class="section-kicker">2026–27 schedule</span>
+    <h2>{state.name} {speciesName} seasons by method</h2>
+    <p class="lead">Confirm exact unit boundaries, tag quotas, and shooting hours in the linked {state.agency.name} source before heading into the field.</p>
+
+    <section class="species-block" aria-label={`${speciesName} season dates`}>
+      <div class="species-header">
+        <h3>{speciesName}</h3>
+        <span class="scroll-hint" aria-hidden="true">Swipe table →</span>
+      </div>
+      <div class="table-wrap" role="region" aria-label={`${speciesName} season table; scroll horizontally on small screens`} tabindex="0">
+        <table class="season-table">
+          <thead>
+            <tr>
+              <th scope="col">Season / method</th>
+              <th scope="col">Dates</th>
+              <th scope="col">Season window</th>
+              <th scope="col">Area &amp; exceptions</th>
+              <th scope="col">Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            {speciesFacts.map((fact: any) => (
+              <tr>
+                <td>{fact.method}</td>
+                <td>{fact.dates}</td>
+                <td>{formatEvergreenStatus(fact.status)}</td>
+                <td>{fact.scopeAndExceptions}{fact.additionalRule ? ` ${fact.additionalRule}` : ''}</td>
+                <td>
+                  <a class="source-link" href={fact.sourceUrl} target="_blank" rel="noopener noreferrer">Official source ↗</a>
+                  <br /><small>Verified {fact.verifiedOn}</small>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {state.zoneNote && <div class="notice"><p><strong>Unit and zone note:</strong> {state.zoneNote}</p></div>}
+  </section>
+
+  <section class="container content-section" id="gear">
+    <span class="section-kicker">Field kit</span>
+    <h2>Recommended {speciesName.toLowerCase()} hunting gear</h2>
+    <p class="small affiliate-note">As an Amazon Associate I earn from qualifying purchases.</p>
+    <div class="gear-grid">
+      {speciesGear.map((item) => (
+        <div class="gear-card">
+          <span class="gear-cat">{item.category}</span>
+          <h3>{item.name}</h3>
+          <p>{item.whyUseful}</p>
+          <a href={item.url} rel="sponsored nofollow noopener" target="_blank">View on Amazon ↗</a>
+          <p class="small">Amazon listing verified {item.verifiedOn}. Price and availability are shown by Amazon.</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="container content-section" id="rules">
+    <span class="section-kicker">Compliance &amp; deadlines</span>
+    <h2>{state.name} licensing &amp; application reminders</h2>
+    <p class="lead">Review statewide license requirements and upcoming draw deadlines on our main <a href={`/${state.slug}/`}>{state.name} Hunting Season Guide</a>.</p>
+    <ul class="fact-list">
+      {(state.licenseAndEducation || []).slice(0, 3).map((fact: any) => (
+        <li>
+          <span class="fact-title">{fact.topic}</span>
+          <span>{fact.fact}</span>
+          <a class="fact-source" href={fact.sourceUrl} target="_blank" rel="noopener noreferrer">Official source ↗ <span class="small">(verified {fact.verifiedOn})</span></a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="container content-section">
+    <div class="callout">
+      <h2>Before you hunt</h2>
+      <p>Regulations change. Always confirm with <a href={state.agency.url} target="_blank" rel="noopener noreferrer">{state.agency.name}</a> before you hunt.</p>
+      <p class="last-verified">Last verified: {state.verifiedOn}</p>
+    </div>
+    <nav class="related-guides" aria-label={`Other ${state.name} species`}>
+      <h2>Other {state.name} hunting seasons</h2>
+      <ul>
+        {siblingSpecies.map((sp) => (
+          <li><a href={`/${state.slug}/${slugifySpecies(sp)}/`}>{sp}</a></li>
+        ))}
+      </ul>
+      <a href={`/${state.slug}/`}>← Back to full {state.name} hunting guide</a>
+    </nav>
+  </section>
+</BaseLayout>
