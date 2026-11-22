@@ -30,7 +30,8 @@ for (const route of pages) {
   assert(!html.includes('FAQPage'), `${route}: FAQ schema must not be used`);
   assert(!/<script[^>]+src=/.test(html), `${route}: unexpected client-side script`);
   for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/g)) {
-    const [tag, href] = match;
+    const [tag, rawHref] = match;
+    const href = rawHref.replaceAll('&amp;', '&');
     if (href.startsWith('https://www.amazon.com/')) {
       assert(/rel="sponsored nofollow noopener"/.test(tag), `${route}: affiliate link missing rel values`);
       assert(href.includes('?tag=fieldseasonhq-20') || href.includes('&tag=fieldseasonhq-20'), `${route}: affiliate tag missing`);
