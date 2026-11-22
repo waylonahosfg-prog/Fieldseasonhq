@@ -5,13 +5,14 @@ interface Props {
   title: string;
   description: string;
   canonical: string;
-  structuredData?: Record<string, unknown>;
+  structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
 const { title, description, canonical, structuredData } = Astro.props;
 const stateModules = import.meta.glob('../data/states/*.json', { eager: true, import: 'default' });
 const states = Object.values(stateModules).map((item: any) => item).sort((a: any, b: any) => a.sortOrder - b.sortOrder);
 const reviewedOn = states.map((state: any) => state.verifiedOn).sort().at(-1) || '2026-11-03';
+const schemas = Array.isArray(structuredData) ? structuredData : structuredData ? [structuredData] : [];
 ---
 <!doctype html>
 <html lang="en">
@@ -28,7 +29,7 @@ const reviewedOn = states.map((state: any) => state.verifiedOn).sort().at(-1) ||
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta name="twitter:card" content="summary" />
-    {structuredData && <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
+    {schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -68,7 +69,11 @@ const reviewedOn = states.map((state: any) => state.verifiedOn).sort().at(-1) ||
         </div>
         <div class="footer-bottom">
           <span>© {new Date().getFullYear()} Field Season HQ</span>
-          <span>Built for clear, careful planning.</span>
+          <span class="footer-links">
+            <a href="/about/">About</a>
+            <span aria-hidden="true">·</span>
+            <a href="/privacy/">Privacy &amp; Disclosure</a>
+          </span>
         </div>
       </div>
     </footer>
