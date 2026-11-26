@@ -1,0 +1,291 @@
+{
+  "slug": "ohio",
+  "name": "Ohio",
+  "sortOrder": 7,
+  "year": "2026–27",
+  "verifiedOn": "2026-11-26",
+  "metaDescription": "Ohio 2026 hunting seasons: deer, turkey, dove, small game and three waterfowl zones, with CWD rules, licenses, deadlines and official DNR guidance.",
+  "homepageSummary": "Ohio 2026–27 dates, CWD rules, zones, licenses and controlled-hunt deadlines.",
+  "intro": "Ohio’s 2026–27 calendar combines statewide deer frameworks with a disease-surveillance area, county bag limits, select-county turkey, and a three-zone waterfowl map. Use the regulation booklet and your permit together: Ohio’s dates, equipment, reporting and location rules can change by species and county.",
+  "zoneNote": "Ohio’s deer rules vary by county bag limit and by the CWD Disease Surveillance Area (DSA), which covers all of Allen, Hardin, Marion and Wyandot counties plus named townships in Crawford, Delaware, Hancock, Morrow and Union counties. Waterfowl uses revised Zones A, B and C with separate split dates. Turkey’s spring Northeast Zone is Ashtabula, Cuyahoga, Geauga, Lake and Trumbull counties; the South Zone is the rest of the state. Wildlife-area and controlled-hunt permits can add site-specific limits.",
+  "agency": {
+    "name": "Ohio Department of Natural Resources, Division of Wildlife",
+    "url": "https://ohiodnr.gov/"
+  },
+  "seasonFacts": [
+    {
+      "species": "White-Tailed Deer",
+      "method": "Archery",
+      "dates": "Sept. 26, 2026–Feb. 7, 2027 statewide; Sept. 12, 2026–Feb. 7, 2027 in the DSA",
+      "status": "Statewide and DSA 2026–27 windows",
+      "scopeAndExceptions": "Statewide deer limit is six, with only one antlered deer allowed; county bag limits and public-land restrictions apply. A valid hunting license and deer permit are required unless exempt.",
+      "additionalRule": "Legal hours are 30 minutes before sunrise to 30 minutes after sunset. Bow minimum draw weight is 40 pounds; crossbow minimum is 75 pounds.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "White-Tailed Deer",
+      "method": "Youth Gun",
+      "dates": "Nov. 21–22, 2026",
+      "status": "Youth 2026–27 window",
+      "scopeAndExceptions": "Youth season harvest counts toward county and statewide limits. Youth hunters and nonhunting adults must visibly wear required hunter orange; the youth must have the required license and deer permit unless exempt.",
+      "additionalRule": "Youth deer gun hunting hours are 30 minutes before sunrise to 30 minutes after sunset, and deer must be game checked.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "White-Tailed Deer",
+      "method": "Firearms / Gun",
+      "dates": "Nov. 30–Dec. 6, 2026; bonus gun Dec. 19–20, 2026; DSA early gun Oct. 10–12, 2026",
+      "status": "Statewide, bonus and DSA 2026–27 windows",
+      "scopeAndExceptions": "Statewide and county bag limits apply; the DSA has a six-deer season limit and additional sampling rules. Legal implements include qualifying shotguns, straight-walled cartridge rifles, muzzleloaders and handguns as specified in the booklet.",
+      "additionalRule": "Hunter orange is required statewide during deer gun seasons. Only one hunting implement may be carried while deer hunting.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "White-Tailed Deer",
+      "method": "Muzzleloader",
+      "dates": "Jan. 2–5, 2027 statewide",
+      "status": "Statewide 2026–27 window",
+      "scopeAndExceptions": "County bag limits, the statewide one-antlered-deer rule, public-area restrictions and DSA rules apply. A valid Ohio hunting license and deer permit are required unless exempt.",
+      "additionalRule": "A .38-caliber-or-larger muzzleloading rifle or a 10-gauge-or-smaller muzzleloading shotgun using one ball per barrel is legal; hunter orange is required.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Wild Turkey",
+      "method": "Fall Shotgun",
+      "dates": "Oct. 1–25, 2026 in select counties",
+      "status": "Select-county 2026–27 window",
+      "scopeAndExceptions": "One turkey of either sex; only counties shown on the official fall open-counties map are open. A valid hunting license and fall turkey permit are required unless exempt.",
+      "additionalRule": "Fall turkey hunting is shotgun-only with shotshells; archery equipment is not permitted. Hunting hours are 30 minutes before sunrise to sunset.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Wild Turkey",
+      "method": "Youth Spring",
+      "dates": "South Zone April 17–18, 2027; Northeast Zone April 24–25, 2027",
+      "status": "Spring 2027 youth windows",
+      "scopeAndExceptions": "Bag limit is one bearded turkey. The Northeast Zone is Ashtabula, Cuyahoga, Geauga, Lake and Trumbull counties; the South Zone is the remainder of Ohio.",
+      "additionalRule": "A valid hunting license and wild turkey permit are required unless exempt; youth hunters must follow the youth-season eligibility and accompanying-adult rules.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Wild Turkey",
+      "method": "Spring",
+      "dates": "South Zone April 24–May 23, 2027; Northeast Zone May 1–30, 2027",
+      "status": "Spring 2027 zone windows",
+      "scopeAndExceptions": "Bag limit is one bearded turkey. Spring dates and hours differ by zone; Lake La Su An Wildlife Area is open only to controlled-permit holders during spring season.",
+      "additionalRule": "South Zone hours are 30 minutes before sunrise to noon Apr. 24–May 2, then to sunset; Northeast hours are to noon May 1–9, then to sunset. A spring turkey permit is required unless exempt.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Ducks, Coots and Mergansers",
+      "method": "Waterfowl",
+      "dates": "Zone A: Oct. 17–Nov. 1 and Nov. 14–Dec. 27, 2026; Zone B: Oct. 17–25 and Nov. 21, 2026–Jan. 10, 2027; Zone C: Oct. 17–25 and Dec. 12, 2026–Jan. 31, 2027",
+      "status": "Three-zone 2026–27 windows",
+      "scopeAndExceptions": "Daily duck limit is 6 with species and sex sublimits; merganser limit is 5, no more than 2 hooded, and coot limit is 15. Use the official revised Zone A/B/C map for the property.",
+      "additionalRule": "HIP certification, an Ohio hunting license, Ohio Wetlands Habitat Stamp endorsement for ages 18+ and federal Duck Stamp for ages 16+ are required.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Canada Goose and Other Geese",
+      "method": "Waterfowl",
+      "dates": "Early Canada goose Sept. 5–13, 2026; Zone A Oct. 17–Nov. 1 and Nov. 14, 2026–Feb. 1, 2027; Zones B and C Oct. 17–25 and Nov. 21, 2026–Feb. 15, 2027",
+      "status": "Early and three-zone 2026–27 windows",
+      "scopeAndExceptions": "Early Canada goose daily limit is 5. Regular goose limit is 5 combined Canada, white-fronted and no more than 1 brant, or 10 combined snow, blue and Ross’s geese; zone splits apply.",
+      "additionalRule": "Waterfowl license, HIP certification, Ohio Wetlands Habitat Stamp endorsement for ages 18+ and federal Duck Stamp for ages 16+ are required.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Teal",
+      "method": "Early Waterfowl",
+      "dates": "Sept. 5–13, 2026",
+      "status": "Early 2026–27 window",
+      "scopeAndExceptions": "Blue-winged, green-winged and cinnamon teal are included; daily limit is 6. Hunting hours and migratory-bird licensing rules apply statewide unless posted otherwise.",
+      "additionalRule": "HIP certification is required; waterfowl hunters also need the Ohio Wetlands Habitat Stamp endorsement when age 18 or older and a federal Duck Stamp when age 16 or older.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Mourning Dove",
+      "method": "Migratory Bird",
+      "dates": "Sept. 1–Nov. 8, 2026 and Dec. 12, 2026–Jan. 1, 2027",
+      "status": "Split 2026–27 window",
+      "scopeAndExceptions": "Mourning and Eurasian collared doves are included; daily limit is 15. Migratory-bird hunting requires a valid Ohio hunting license and HIP certification.",
+      "additionalRule": "Migratory birds transported or placed in custody for processing must have the hunter’s signed tag with address, total number and species, and kill date.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Squirrel",
+      "method": "Small Game",
+      "dates": "Sept. 1, 2026–Jan. 31, 2027",
+      "status": "Statewide 2026–27 window",
+      "scopeAndExceptions": "Red, gray, black and fox squirrels are legal game; daily limit is 6. Legal hours are 30 minutes before sunrise to sunset.",
+      "additionalRule": "A valid Ohio hunting license is required unless exempt; check wildlife-area postings for property-specific restrictions.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Cottontail Rabbit",
+      "method": "Small Game",
+      "dates": "Nov. 6, 2026–Feb. 28, 2027",
+      "status": "Statewide 2026–27 window",
+      "scopeAndExceptions": "Daily limit is 4; legal hours are sunrise to sunset. Youth small-game dates use the same regular-season daily limits for open species and locations.",
+      "additionalRule": "A valid Ohio hunting license is required unless exempt; wildlife-area and controlled-access postings can impose additional site rules.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Ring-Necked Pheasant and Chukar",
+      "method": "Small Game",
+      "dates": "Nov. 6, 2026–Jan. 10, 2027",
+      "status": "Statewide framework 2026–27 window",
+      "scopeAndExceptions": "Pheasant daily limit is 2 and only males may be killed; chukar daily limit is 4. Some wildlife-area fields require controlled-access permits on listed dates.",
+      "additionalRule": "Legal hours are sunrise to sunset. A valid Ohio hunting license is required unless exempt; check the area-specific controlled-access rules before hunting.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Bobwhite Quail",
+      "method": "Small Game",
+      "dates": "Nov. 6–29, 2026 in select counties and wildlife areas",
+      "status": "Select-area 2026–27 window",
+      "scopeAndExceptions": "Daily limit is 2. Private-land hunting is open only in listed counties; Tri-Valley Wildlife Area and Crown City Wildlife Area have specific rules, and quail is closed on other public hunting areas.",
+      "additionalRule": "Legal hours are sunrise to sunset in open locations. Confirm the official 2026 open-counties map and any controlled-hunt requirement.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Ruffed Grouse",
+      "method": "Controlled Hunt",
+      "dates": "Controlled hunts only; dates are shown on the permit",
+      "status": "Permit / quota hunt",
+      "scopeAndExceptions": "Ruffed grouse hunting is limited to controlled hunts on four designated areas. Only hunters with a Division of Wildlife controlled-hunt permit may hunt grouse.",
+      "additionalRule": "Controlled-access lottery applications for small game and related hunts are accepted July 1–31; the permit and area rules control the exact opportunity.",
+      "sourceUrl": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/controlled-hunting-trapping",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Youth Small Game",
+      "method": "Youth Only",
+      "dates": "Oct. 24–25 and Oct. 31–Nov. 1, 2026",
+      "status": "Youth 2026–27 windows",
+      "scopeAndExceptions": "Open for rabbit, pheasant, chukar and quail in open areas, plus other legal game in season; regular-season daily limits apply. Quail remains limited to open counties and areas.",
+      "additionalRule": "Pheasant releases and wildlife-area access vary by the official list; verify the property’s controlled-access requirements.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "licenseAndEducation": [
+    {
+      "topic": "Resident and nonresident hunting licenses",
+      "fact": "The official fee table lists a resident adult 1-year hunting license at $19.00, a nonresident 1-year hunting license at $180.96, a resident youth 1-year license at $10.00, and a nonresident 3-day license at $40.56; the 3-day license is not valid for deer, turkey or furbearers. Fees include the writing fee.",
+      "sourceUrl": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/hunting-licenses-permits",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Game-specific permits and stamps",
+      "fact": "Deer and turkey hunting require a species permit in addition to a hunting license unless exempt. The official table lists resident adult either-sex deer and turkey permits at $31.20, deer management permits at $15.00, Ohio Wetlands Habitat Stamp at $15.00, and the federal Migratory Bird Hunting Stamp at $25.00.",
+      "sourceUrl": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/hunting-licenses-permits",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Hunter education cutoff and alternatives",
+      "fact": "First-time hunting-license buyers must complete hunter education, except apprentice-license buyers. Applicants may also present a previously held hunting license, proof of hunter education from any state, or attest that they are at least 21 and previously held a legal hunting license.",
+      "sourceUrl": "https://ohiodnr.gov/discover-and-learn/education-training/hunter-education/huntered-courses",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Apprentice and mentored hunting",
+      "fact": "Resident and nonresident youth and adults may buy an apprentice hunting license before completing hunter education. An apprentice must be accompanied by a licensed hunter age 21 or older, and one licensed adult may accompany no more than two apprentices at once.",
+      "sourceUrl": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/hunting-licenses-permits",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Tagging and game check",
+      "fact": "Every person who kills a deer or turkey must complete Ohio’s tagging and game-check process. Deer must be checked by noon the day after harvest, or by 11:30 p.m. on the last day of a season; turkey must be checked by 11:30 p.m. the day of kill.",
+      "sourceUrl": "https://ohiodnr.gov/wps/portal/gov/odnr/buy-and-apply/hunting-fishing-boating/online-game-check",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Migratory-bird licensing",
+      "fact": "Migratory-bird hunters need a valid Ohio hunting license and HIP certification. Waterfowl hunters additionally need the Ohio Wetlands Habitat Stamp endorsement at age 18 or older and a signed federal Duck Stamp or E-Stamp at age 16 or older.",
+      "sourceUrl": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "deadlines": [
+    {
+      "applicationOrDeadline": "Controlled deer, waterfowl, small-game, waterfowl-blind and dove lotteries",
+      "dateOrStatus": "Applications accepted July 1–31, 2026; a nonrefundable $3 application fee applies to each hunt.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/controlled-hunting-trapping",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "Controlled turkey lottery",
+      "dateOrStatus": "Applications accepted March 1–31 for the turkey controlled-hunt period; confirm the active year and permit details in the Division of Wildlife lottery system.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/controlled-hunting-trapping",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "Controlled beaver, otter and furbearer trapping lottery",
+      "dateOrStatus": "In-person lottery on the first Saturday of October; the 2026 regulations identify Oct. 3, 2026 as the one-day application/drawing date.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/controlled-hunting-trapping",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "sources": [
+    {
+      "category": "Official 2026–27 regulations PDF",
+      "title": "2026–27 Ohio Hunting and Trapping Regulations",
+      "url": "https://ohiodnr.gov/static/documents/wildlife/laws-regs-licenses/Ohio%20Hunting%20and%20Trapping%20Regulations%20ENGLISH.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Official season approval notice",
+      "title": "Ohio Wildlife Council Approves 2026–27 Hunting Seasons",
+      "url": "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/news/ohio-wildlife-council-approves-2026-27-hunting-seasons",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Official license portal",
+      "title": "Buy Hunting Licenses and Permits",
+      "url": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/hunting-licenses-permits",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Official CWD guidance",
+      "title": "Chronic Wasting Disease (Deer)",
+      "url": "https://ohiodnr.gov/discover-and-learn/safety-conservation/wildlife-management/wildlife-disease/chronic-wasting-disease",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Official harvest reporting guidance",
+      "title": "Online Game Check",
+      "url": "https://ohiodnr.gov/wps/portal/gov/odnr/buy-and-apply/hunting-fishing-boating/online-game-check",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Official controlled-hunt portal",
+      "title": "Controlled Hunting Access Lotteries",
+      "url": "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/hunting-resources/controlled-hunting-trapping",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "unverifiedItems": [
+    "The regulation booklet states March 1–31 for turkey controlled-hunt applications but does not identify a standalone 2027 lottery notice in the pages reviewed; confirm the live HuntFish OH lottery listing before applying.",
+    "Exact CWD sampling dates, staffed-station schedules, wildlife-area controlled-access dates and county/open-area maps can change or are permit-specific; verify the current ODNR notices and the permit before hunting."
+  ],
+  "gear": []
+}
