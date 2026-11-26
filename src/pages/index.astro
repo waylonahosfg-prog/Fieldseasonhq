@@ -4,13 +4,16 @@ import { slugifySpecies } from '../utils/formatters';
 
 const stateModules = import.meta.glob('../data/states/*.json', { eager: true, import: 'default' });
 const states = Object.values(stateModules).map((item: any) => item).sort((a: any, b: any) => a.sortOrder - b.sortOrder);
-const reviewedOn = states.map((state: any) => state.verifiedOn).sort().at(-1) || '2026-11-22';
+const reviewedOn = states.map((state: any) => state.verifiedOn).sort().at(-1) || '2026-11-26';
 const totalSpeciesPages = states.reduce((acc: number, s: any) => acc + new Set((s.seasonFacts || []).map((f: any) => f.species)).size, 0);
 
 const STATE_ABBR: Record<string, string> = {
   colorado: 'CO',
+  georgia: 'GA',
   michigan: 'MI',
+  ohio: 'OH',
   pennsylvania: 'PA',
+  'south-carolina': 'SC',
   texas: 'TX',
   wisconsin: 'WI'
 };
@@ -45,7 +48,7 @@ const websiteSchema = {
           <li><span>States covered</span><strong>{states.length} Priority States</strong></li>
           <li><span>Species guides</span><strong>{totalSpeciesPages}+ Dedicated Pages</strong></li>
           <li><span>Season cycle</span><strong>2026–2027</strong></li>
-          <li><span>Citations</span><strong>100% Official Agency Links</strong></li>
+          <li><span>Citations</span><strong>Official Agency Links</strong></li>
           <li><span>Last reviewed</span><strong>{reviewedOn}</strong></li>
         </ul>
       </aside>
