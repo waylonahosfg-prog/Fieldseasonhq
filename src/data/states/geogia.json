@@ -1,0 +1,288 @@
+{
+  "slug": "georgia",
+  "name": "Georgia",
+  "sortOrder": 8,
+  "year": "2026–27",
+  "verifiedOn": "2026-11-26",
+  "metaDescription": "Georgia 2026–27 seasons: county-specific deer days, turkey, bear, alligator, doves, waterfowl and small game; licenses, bag limits and WMA rules.",
+  "homepageSummary": "Georgia 2026–27 dates, zone rules, licenses, quotas and WMA check-in guidance.",
+  "intro": "Georgia’s 2026–27 calendar uses county-specific deer days rather than a simple north/south split, alongside species seasons that may vary by county, WMA, quota hunt or migratory-bird framework. Use the annual WRD guide for the statewide baseline, then confirm the property-specific schedule and sign in or out where required.",
+  "zoneNote": "Deer either-sex days depend on the county color-coded map, while some counties have extended archery or firearms seasons. Black bear has Northern, Central and Southern management zones. WMAs and federal properties may add hunt dates, quotas, check stations and sign-in or check-out requirements; confirm the property listing before hunting.",
+  "agency": {
+    "name": "Georgia Department of Natural Resources Wildlife Resources Division",
+    "url": "https://georgiawildlife.com/"
+  },
+  "seasonFacts": [
+    {
+      "species": "White-Tailed Deer",
+      "method": "Archery",
+      "dates": "Archery-only period: Sept. 12–Oct. 9, 2026; archery also allowed during later deer seasons through Jan. 10, 2027. Selected counties extend archery through Jan. 31, 2027.",
+      "status": "Annual archery framework; county and property exceptions apply",
+      "scopeAndExceptions": "Statewide deer bag is 12: no more than 10 antlerless and no more than 2 antlered. County-specific either-sex days, antler restrictions, WMA and federal land rules apply.",
+      "additionalRule": "A free Harvest Record is required. Record each deer before moving the carcass and report the harvest through Georgia Game Check within 24 hours; WMA/NWR hunts may require check-in and check-out.",
+      "sourceUrl": "https://georgiawildlife.com/hunting/hunter-resources",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "White-Tailed Deer",
+      "method": "Primitive Weapons / Muzzleloader",
+      "dates": "Primitive-weapons period: Oct. 10–16, 2026; primitive weapons also allowed in the firearms season through Jan. 10, 2027, subject to county extensions.",
+      "status": "Annual primitive-weapons framework; county and property exceptions apply",
+      "scopeAndExceptions": "Primitive-weapons deer dates are a statewide framework; exact either-sex opportunities, county restrictions and WMA dates are controlled by the annual guide and property listing. The statewide deer bag is 10 antlerless and 2 antlered deer.",
+      "additionalRule": "Legal primitive weapons and fluorescent-orange requirements apply as specified in the annual regulations. Record deer on the Harvest Record before moving and report through Game Check within 24 hours.",
+      "sourceUrl": "https://georgiawildlife.com/hunting/hunter-resources",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "White-Tailed Deer",
+      "method": "Firearms / Gun",
+      "dates": "Oct. 17, 2026–Jan. 10, 2027 statewide; selected counties extend firearms season through Jan. 15, 2027.",
+      "status": "Annual firearms framework; county and property exceptions apply",
+      "scopeAndExceptions": "Either-sex dates differ by county and the eight-county extended firearms season has separate opportunities. WMA/NWR schedules may differ. Statewide bag is 10 antlerless and 2 antlered deer.",
+      "additionalRule": "Check county and WMA schedules before hunting. Record each deer on the Harvest Record before moving the carcass and report through Georgia Game Check within 24 hours.",
+      "sourceUrl": "https://georgiawildlife.com/deer-info",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Wild Turkey",
+      "method": "Spring shotgun / archery",
+      "dates": "Private land Mar. 27–May 15, 2027; public land Apr. 3–May 15, 2027. Youth and mobility-impaired special opportunity Mar. 20–21, 2027.",
+      "status": "Spring statewide framework; public-land and property exceptions apply",
+      "scopeAndExceptions": "Statewide limit is 2 gobblers per season and 1 per day. Public lands are restricted to one gobbler per season per area; WMA/NWR quota and site-specific schedules apply. The special-opportunity hunt is for youth under 16 and mobility-impaired persons and does not apply to public lands unless specified.",
+      "additionalRule": "A free Harvest Record is required; record the harvest before moving the carcass and report it through Georgia Game Check within 24 hours.",
+      "sourceUrl": "https://georgiawildlife.com/hunting/hunter-resources",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Black Bear",
+      "method": "Archery and firearms",
+      "dates": "Northern zone: archery Sept. 12–Oct. 9, primitive weapons Oct. 10–16, firearms Oct. 17, 2026–Jan. 10, 2027. Central zone: Dec. 19, 2026. Southern zone: Sept. 17–19, Sept. 24–26, Oct. 1–3 and Oct. 8–10, 2026.",
+      "status": "Annual zone-specific framework; quota and property exceptions apply",
+      "scopeAndExceptions": "Statewide limit is 2 bears per season, no more than 1 taken from the Central or Southern zones. A second Central Zone day may be offered; check the current agency notice. During Northern primitive-weapons season only youth may use any firearm legal for bear. WMA hunts and the dog-bear quota have separate schedules.",
+      "additionalRule": "Report every bear via Game Check within 24 hours and meet zone-specific physical tagging requirements; Northern-zone bears generally must be presented within 3 business days.",
+      "sourceUrl": "https://georgiawildlife.com/hunting/hunter-resources",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "American Alligator",
+      "method": "Quota hunt; hand-held capture equipment",
+      "dates": "Sunset Aug. 14–sunrise Oct. 5, 2026",
+      "status": "Annual quota-permit season; open zones and permit conditions apply",
+      "scopeAndExceptions": "One alligator per permit. Legal minimum is 48 inches in Zones 1–9 and 96 inches in Zone 1A (Lake Walter F. George); open-zone and property restrictions apply.",
+      "additionalRule": "A drawn hunter needs a hunting license, alligator harvest permit and harvest record. Report within 24 hours and attach the issued CITES tag within 6 inches of the tail tip.",
+      "sourceUrl": "https://georgiawildlife.com/hunting/alligator",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Mourning Dove",
+      "method": "Migratory-bird methods",
+      "dates": "Sept. 5–Oct. 11; Nov. 21–29; Dec. 19, 2026–Jan. 31, 2027",
+      "status": "Annual migratory-bird framework; federal and area rules apply",
+      "scopeAndExceptions": "Statewide migratory-bird season in three segments. Daily limit is 15 mourning doves; aggregate possession limit is three times the daily limit, subject to federal and state rules.",
+      "additionalRule": "Hunters 16 and older need a Georgia Waterfowl Migratory Bird License; HIP and federal migratory-bird rules apply.",
+      "sourceUrl": "https://georgiawildlife.com/2026-2027-migratory-bird-hunting-season",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Ducks",
+      "method": "Migratory-bird methods",
+      "dates": "Nov. 21–29 and Dec. 12, 2026–Jan. 31, 2027",
+      "status": "Annual migratory-bird framework; federal and area rules apply",
+      "scopeAndExceptions": "Daily limit is 6 ducks, including no more than 4 sea ducks; additional species sublimits and special lake, WMA and federal-refuge rules may be more restrictive.",
+      "additionalRule": "Hunters need a hunting license, Georgia migratory-bird license and federal duck stamp/e-stamp when required; non-toxic shot and federal species rules apply.",
+      "sourceUrl": "https://georgiawildlife.com/2026-2027-migratory-bird-hunting-season",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Canada Goose",
+      "method": "Migratory-bird methods",
+      "dates": "Sept. 5–27; Oct. 10–25; Nov. 21–29; Dec. 12, 2026–Jan. 31, 2027",
+      "status": "Annual migratory-bird framework; federal and area rules apply",
+      "scopeAndExceptions": "Daily limit is 5 geese in the applicable aggregate; species-specific sublimits and federal, WMA and refuge rules apply.",
+      "additionalRule": "Georgia migratory-bird licensing, HIP and federal duck stamp/e-stamp requirements apply to eligible hunters.",
+      "sourceUrl": "https://georgiawildlife.com/2026-2027-migratory-bird-hunting-season",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Youth, Veteran and Active-Duty Military Waterfowl",
+      "method": "Special migratory-bird days",
+      "dates": "Nov. 14–15, 2026",
+      "status": "Annual special opportunity; eligibility and federal rules apply",
+      "scopeAndExceptions": "Eligible youth age 15 or younger, veterans and active-duty military may hunt on these special days. Usual species-specific limits and federal rules apply; only youth may hunt unless the adult is a veteran or active-duty military.",
+      "additionalRule": "All applicable licensing, federal species, shooting-hour and non-toxic-shot rules remain in force.",
+      "sourceUrl": "https://georgiawildlife.com/2026-2027-migratory-bird-hunting-season",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Squirrel",
+      "method": "Small-game methods",
+      "dates": "Aug. 15, 2026–Feb. 28, 2027",
+      "status": "Annual statewide framework; property-specific restrictions apply",
+      "scopeAndExceptions": "Daily limit is 12 squirrels; WMA and public-land schedules or closures may be more restrictive.",
+      "additionalRule": "A basic hunting license is generally required unless an exemption applies; WMA sign-in rules may apply.",
+      "sourceUrl": "https://georgiawildlife.com/small-game-and-furbearers-info",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Rabbit",
+      "method": "Small-game methods",
+      "dates": "Nov. 14, 2026–Feb. 28, 2027",
+      "status": "Annual statewide framework; property-specific restrictions apply",
+      "scopeAndExceptions": "Daily limit is 12 rabbits; WMA hunts may have property-specific dates, quotas or other restrictions.",
+      "additionalRule": "Quota rabbit hunts and WMA hunts can require a selected permit plus online or on-site check-in.",
+      "sourceUrl": "https://georgiawildlife.com/small-game-and-furbearers-info",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Quail",
+      "method": "Small-game methods",
+      "dates": "Nov. 14, 2026–Feb. 28, 2027",
+      "status": "Annual statewide framework; property-specific restrictions apply",
+      "scopeAndExceptions": "Daily limit is 12 quail; on public lands the limit is 3 per person unless the area listing states otherwise. WMA quota-hunt schedules may differ.",
+      "additionalRule": "Quota quail hunts use the Go Outdoors Georgia lottery; do not assume a statewide season date opens every WMA.",
+      "sourceUrl": "https://georgiawildlife.com/small-game-and-furbearers-info",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Feral Hog",
+      "method": "Legal methods vary by property and applicable season",
+      "dates": "Private land: year-round, no closed season. Public lands: only under the applicable property schedule and rules.",
+      "status": "No closed season on private land; public-land opportunities are property-specific",
+      "scopeAndExceptions": "No statewide bag limit or closed season on private land; landowner permission is required. Public properties, WMAs and federal lands may limit hog hunting to specified seasons or hunts and impose method and access restrictions.",
+      "additionalRule": "Check the current property listing and annual regulations before hunting; do not assume private-land rules apply on public land.",
+      "sourceUrl": "https://georgiawildlife.com/non-native-and-invasive-species-info",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "licenseAndEducation": [
+    {
+      "topic": "Resident and nonresident hunting license",
+      "fact": "The official fee chart lists an annual hunting license at $15 resident or $100 nonresident; annual Big Game privileges cost $25 resident or $225 nonresident. A basic hunting license is prerequisite to the Big Game license; exemptions and package licenses may apply.",
+      "sourceUrl": "https://georgiawildlife.com/sites/default/files/wrd/pdf/license-applications/License%20Prices.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Big-game and migratory-bird privileges",
+      "fact": "Big-game privileges are required for deer, turkey and bear. Hunters age 16 or older pursuing doves, ducks, geese, woodcock, snipe, coots, rails or gallinules need the Georgia Waterfowl Migratory Bird License; duck and goose hunters age 16 or older also need the federal duck stamp/e-stamp.",
+      "sourceUrl": "https://georgiawildlife.com/licenses-permits-passes/choose",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Harvest Record and Game Check",
+      "fact": "A free Harvest Record is required for every deer, turkey and bear hunter, and for alligator hunters through the permit process. Record the harvest before moving the carcass and report deer, turkey, alligator and bear through Georgia Game Check within 24 hours; bears also require physical tagging.",
+      "sourceUrl": "https://georgiawildlife.com/HarvestRecordGeorgiaGameCheck",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Hunter education cutoff",
+      "fact": "Residents and nonresidents born on or after Jan. 1, 1961 must complete hunter education before purchasing a season hunting license, subject to exceptions. Ages 12–15 may hunt under direct supervision without the certificate; age 16–25 must present and carry it, while those 26 and older must meet the requirement but need not carry the certificate.",
+      "sourceUrl": "https://georgiawildlife.com/hunting/huntereducation",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Apprentice and mentored hunting",
+      "fact": "An Apprentice License or a Short Term License may be purchased without hunter education. Hunters age 12–15 who lack certification must hunt under direct supervision of a licensed adult; children 11 or younger must remain within sight or hearing of a licensed adult age 18 or older.",
+      "sourceUrl": "https://georgiawildlife.com/hunting/huntereducation",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "WMA access and check-in",
+      "fact": "Many WMA and public-property hunts require hunters to sign in or check in online or at the property, and some require check-out or reporting of the harvest. The annual regulations guide and individual WMA listing control the property-specific process.",
+      "sourceUrl": "https://georgiawildlife.com/hunting/hunter-resources",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "deadlines": [
+    {
+      "applicationOrDeadline": "2026 alligator quota hunt",
+      "dateOrStatus": "Applications open June 1 and close July 15, 2026 at 11:59 p.m. Eastern; closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://georgiawildlife.com/hunting/alligator",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "2026 dove, youth dove and dog-bear quota hunts",
+      "dateOrStatus": "Dove and youth dove applications close Aug. 15, 2026; dog-bear applications run Aug. 1–15, 2026; closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://georgiawildlife.com/hunting/quota",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "2026 deer, youth deer and state-park deer quota hunts",
+      "dateOrStatus": "Applications open June 1 and close Sept. 1, 2026 at 11:59 p.m. Eastern; closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://georgiawildlife.com/hunting/quota",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "2026 waterfowl, feral hog, quail, youth quail and rabbit quota hunts",
+      "dateOrStatus": "Applications close Oct. 15, 2026 at 11:59 p.m. Eastern; closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://georgiawildlife.com/hunting/quota",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "2027 turkey and youth turkey quota hunts",
+      "dateOrStatus": "The annual quota page lists a Feb. 15 application deadline; verify the 2027 category and annual guide before applying.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://georgiawildlife.com/hunting/quota",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "sources": [
+    {
+      "category": "Agency home",
+      "title": "Georgia DNR Wildlife Resources Division",
+      "url": "https://georgiawildlife.com/",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Official 2026–27 regulations",
+      "title": "2026–2027 Georgia Hunting & Fishing Regulations announcement",
+      "url": "https://georgiawildlife.com/summer-reading-list-2026-2027-georgia-hunting-fishing-regulations",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Hunting guide and WMA rules",
+      "title": "Hunting in Georgia: seasons, regulations and WMA resources",
+      "url": "https://georgiawildlife.com/hunting/hunter-resources",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Migratory bird seasons",
+      "title": "2026–2027 Migratory Bird Hunting Season",
+      "url": "https://georgiawildlife.com/2026-2027-migratory-bird-hunting-season",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Quota hunts",
+      "title": "Quota Hunts and application deadlines",
+      "url": "https://georgiawildlife.com/hunting/quota",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Alligator regulations",
+      "title": "Alligator Hunting Season & Regulations",
+      "url": "https://georgiawildlife.com/hunting/alligator",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Licenses and education",
+      "title": "What License Do I Need?",
+      "url": "https://georgiawildlife.com/licenses-permits-passes/choose",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Harvest reporting",
+      "title": "Georgia Game Check: reporting deer, turkey, alligator and bear",
+      "url": "https://georgiawildlife.com/HarvestRecordGeorgiaGameCheck",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "unverifiedItems": [
+    "Individual WMA/NWR schedules, county-specific either-sex deer days, check-in/check-out requirements and property-specific limits require checking the agency guide and property posting.",
+    "The official 2026–27 guide says a second Central Zone bear day may be offered but its notice contains a year inconsistency; confirm any additional day with WRD before hunting.",
+    "Current license prices and live quota availability can change; confirm the official price chart and Go Outdoors Georgia before purchase or application."
+  ],
+  "gear": []
+}
