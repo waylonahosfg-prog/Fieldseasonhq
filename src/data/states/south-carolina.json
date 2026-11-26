@@ -1,0 +1,302 @@
+{
+  "slug": "south-carolina",
+  "name": "South Carolina",
+  "sortOrder": 6,
+  "year": "2026–27",
+  "verifiedOn": "2026-11-26",
+  "metaDescription": "South Carolina hunting seasons for 2026–27: four deer zones, spring turkey, bear, alligator, hog, dove, waterfowl, small-game dates and license steps.",
+  "homepageSummary": "Four Game Zones shape South Carolina deer, turkey, bear and small-game seasons.",
+  "intro": "South Carolina’s 2026–27 hunting calendar is built around four Game Zones, private-land rules and separate WMA schedules. Deer dates, Act 231 tag allocations, spring turkey limits, bear quotas and migratory-bird splits all need to be checked against the property and species you are hunting.",
+  "zoneNote": "Game Zones 1–4 control private-land deer dates and antlerless limits, while SCDNR may impose narrower dates, methods, check-in rules or limits on individual WMAs. Waterfowl and other migratory-bird seasons are statewide in the guide but still carry species-specific limits and federal requirements. Bear is limited to listed mountain or Game Zone 4 areas and can close when a quota is reached.",
+  "agency": {
+    "name": "South Carolina Department of Natural Resources",
+    "url": "https://www.dnr.sc.gov/"
+  },
+  "seasonFacts": [
+    {
+      "species": "White-Tailed Deer",
+      "method": "Archery / Primitive Weapons / Firearms",
+      "dates": "Game Zone 1: primitive weapons Oct. 1–10; gun Oct. 11, 2026–Jan. 1, 2027. Game Zone 2: archery Sept. 15–30; primitive weapons Oct. 1–10; gun Oct. 11, 2026–Jan. 1, 2027.",
+      "status": "Game Zone 1–2 2026–27 statewide window",
+      "scopeAndExceptions": "Private lands; antlered statewide limit is 2 per day and 5 total for residents or 4 total for nonresidents. Antlerless limit is 2 per day, with 3 total in Zone 1 and 9 total in Zone 2. Limits include private and WMA deer unless a quota-property rule applies.",
+      "additionalRule": "Archery and crossbows are allowed during all seasons. All harvested deer must be tagged at the point of kill before transport.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "White-Tailed Deer",
+      "method": "Archery / Firearms",
+      "dates": "Game Zone 3: archery and gun Aug. 15, 2026–Jan. 1, 2027 (buck-only Aug. 15–Sept. 14). Game Zone 4: archery Aug. 15–31; gun Sept. 1, 2026–Jan. 1, 2027 (buck-only Aug. 15–Sept. 14).",
+      "status": "Game Zone 3–4 2026–27 statewide window",
+      "scopeAndExceptions": "Private lands; antlerless limit is 2 per day and 9 total for all seasons and methods combined in Zones 3 and 4. Statewide antlered limits remain 2 per day and 5 resident/4 nonresident total.",
+      "additionalRule": "Sunday hunting is allowed on private lands. Deer baiting is permitted on private lands statewide; Game Zones 1 and 2 prohibit pursuing deer with dogs.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "White-Tailed Deer",
+      "method": "Youth Only",
+      "dates": "Private-land youth days: Zone 3 and 4 Aug. 8, 2026; Zone 2 Sept. 12, 2026; Zone 1 Sept. 26, 2026 (antlered only, one deer); all zones Jan. 2, 2027 (either-sex, limit 2).",
+      "status": "2026–27 youth hunt dates",
+      "scopeAndExceptions": "For youth 17 and younger on private lands. No license or tag is required for the youth or accompanying adult on designated youth days; only the youth may take or attempt to take game.",
+      "additionalRule": "A youth hunter who has not completed hunter education must be accompanied by an adult at least 21 years old.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Wild Turkey",
+      "method": "Shotgun / Muzzleloading Shotgun / Bow / Crossbow",
+      "dates": "Spring 2027 private lands and WMA lands statewide: April 3–May 3, 2027. Private-land youth weekends: March 27–28 and May 8–9, 2027.",
+      "status": "Spring 2027 season",
+      "scopeAndExceptions": "Two gobblers per season for residents and nonresidents, no more than one per day and no more than one before April 10. Some WMAs have more restrictive dates, days, check-in rules or limits.",
+      "additionalRule": "All hunters must possess turkey tags except on designated youth days; the bird must be tagged and validated before moving it. Rifles, pistols, slugs, buckshot, dogs, live decoys and electronic calls are prohibited.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Black Bear",
+      "method": "Still Hunt / Dog Hunt",
+      "dates": "Game Zone 1 private lands: still hunt Oct. 11–23, 2026; dog hunt Oct. 17–30, 2026. Game Zone 2 private lands: still hunt Oct. 17–30, 2026.",
+      "status": "Game Zone 1–2 2026 season window",
+      "scopeAndExceptions": "Zone 1 applies to the mountain zone. Zone 2 is private land in specified portions of Greenville, Oconee and Pickens counties plus all Anderson and Spartanburg counties, with a combined 20-bear quota. Limit is one bear; no sow with cubs and no bear 100 pounds or less.",
+      "additionalRule": "A bear tag, hunting license and Big Game Permit are required; attach the tag before moving the bear and report harvest by midnight on the day of harvest.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Black Bear",
+      "method": "Still Hunt",
+      "dates": "Game Zone 4 private lands in Florence, Georgetown, Horry, Marion and Williamsburg counties: Oct. 17–30, 2026.",
+      "status": "Game Zone 4 quota hunt",
+      "scopeAndExceptions": "Combined 40-bear quota for the listed Game Zone 4 counties; the season closes 24 hours after SCDNR notice if the quota is reached. Limit is one bear; no sow with cubs and no bear 100 pounds or less. Unprocessed bait is allowed on private land only.",
+      "additionalRule": "Monitor SCDNR season-status notices or the agency bear hotline before hunting. WMA weapons are limited to weapons allowed for the current deer season on that WMA.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "American Alligator",
+      "method": "Public Lottery Hunt",
+      "dates": "No open statewide season; selected hunters participate through SCDNR’s public alligator lottery and issued permit/tag.",
+      "status": "Permit / quota hunt",
+      "scopeAndExceptions": "Applicants must be at least 16. A selected hunter needs a South Carolina hunting license plus the permit/tag; a slot tag restricts harvest to an alligator 4–8 feet long and limits allowed methods.",
+      "additionalRule": "The lottery application has a $10 nonrefundable fee; selected applicants pay a $100 permit/tag fee. Nonresidents also pay the $200 nonresident alligator hunting fee.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Feral Hog",
+      "method": "Firearms / Bow / Crossbow / Trapping",
+      "dates": "No closed season on private lands statewide during daylight hours; feral hogs may be trapped year-round on private lands without a license or permit.",
+      "status": "Year-round private-land opportunity",
+      "scopeAndExceptions": "A hunting license is required to hunt. Bait and electronic calls are legal on private lands. On WMAs, hog hunting is only where allowed and weapons are limited by the WMA’s current season unless otherwise specified.",
+      "additionalRule": "Night hunting is allowed only on annually registered private property, with lawful right to hunt; night hunting is not allowed on WMA lands. Live wild hogs may not be removed from the wild.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Squirrel",
+      "method": "Dogs / Firearms",
+      "dates": "Private lands: dogs only Mar. 2–Sept. 30, 2026; guns and dogs Oct. 1, 2026–Mar. 1, 2027; dogs only Mar. 2–Sept. 30, 2027. WMA: dogs only Sept. 1–14, then guns and dogs Oct. 1, 2026–Mar. 1, 2027.",
+      "status": "2026–27 statewide small-game window",
+      "scopeAndExceptions": "Gray and fox squirrels; daily limit 10. Individual WMAs can have additional restrictions.",
+      "additionalRule": "The Sept. 26, 2026 private-land youth day has a 10-squirrel daily limit.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Rabbit",
+      "method": "Dogs / Firearms",
+      "dates": "Private lands: dogs only Mar. 2–Nov. 25, 2026; guns and dogs Nov. 26, 2026–Mar. 1, 2027; dogs only Mar. 2–Nov. 24, 2027. WMA: dogs only Sept. 1–14, then guns and dogs Nov. 26, 2026–Mar. 1, 2027.",
+      "status": "2026–27 statewide small-game window",
+      "scopeAndExceptions": "Daily limit 5. Individual WMAs can have additional restrictions; rabbit boxes are not allowed on WMAs.",
+      "additionalRule": "The Mar. 6, 2027 private-land youth day has a five-rabbit daily limit.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Bobwhite Quail",
+      "method": "Dogs / Firearms",
+      "dates": "Private lands: dogs only Mar. 2–Nov. 22, 2026; guns and dogs Nov. 23, 2026–Mar. 1, 2027; dogs only Mar. 2–Nov. 21, 2027. WMA: dogs only Sept. 1–14, then guns and dogs Nov. 23, 2026–Mar. 1, 2027.",
+      "status": "2026–27 statewide small-game window",
+      "scopeAndExceptions": "Daily limit 12. Individual WMAs can have additional restrictions. The private-land youth day is Nov. 21, 2026, with a 12-bird limit.",
+      "additionalRule": "A hunting license is required; check each WMA schedule before hunting public land.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Mourning Dove",
+      "method": "Migratory-Bird Methods",
+      "dates": "Sept. 5–Oct. 3, Nov. 13–28, and Dec. 18, 2026–Jan. 31, 2027.",
+      "status": "2026–27 migratory-bird window",
+      "scopeAndExceptions": "Daily limit 15 mourning doves; no limit on Eurasian collared doves or pigeons. Public WMA dove fields are afternoon-only and have a 50-shell limit per hunt.",
+      "additionalRule": "Hunters age 16 and older need the South Carolina Migratory Bird Permit/HIP certification. Public fields may have additional entry and shooting-hour rules.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Early Teal",
+      "method": "Migratory-Bird Methods",
+      "dates": "Sept. 19–27, 2026.",
+      "status": "2026 early-teal window",
+      "scopeAndExceptions": "Blue-winged and green-winged teal; daily limit 6 total. Shooting hours are sunrise to sunset.",
+      "additionalRule": "Migratory-bird licensing and federal migratory-bird rules apply; verify WMA-specific restrictions before hunting public land.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Ducks and American Coots",
+      "method": "Migratory-Bird Methods",
+      "dates": "Nov. 21–28, 2026 and Dec. 12, 2026–Jan. 31, 2027.",
+      "status": "2026–27 waterfowl window",
+      "scopeAndExceptions": "Duck daily limit 6 total with species caps; American coot daily limit 15. There is no open season on Harlequin Ducks. Sea-duck limits and the black/mottled duck rule depend on the area east/south or west/north of Interstate 95.",
+      "additionalRule": "Hunters age 16 and older need a hunting license, HIP/Migratory Bird Permit, state Migratory Waterfowl Permit, Federal Waterfowl Stamp and WMA permit when applicable.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Canada Goose and Other Geese",
+      "method": "Migratory-Bird Methods",
+      "dates": "Canada Goose: Sept. 1–30, Nov. 21–28, Dec. 12, 2026–Jan. 31, 2027, and Feb. 15–Mar. 1, 2027. White-fronted and Snow Geese: Nov. 21–28, Dec. 12, 2026–Jan. 31, 2027, and Feb. 15–Mar. 1, 2027.",
+      "status": "2026–27 waterfowl window",
+      "scopeAndExceptions": "Canada Goose daily limit is 15 during the September segment and 5 for the remainder; the remainder includes no more than 2 White-fronted Geese. Snow Goose daily limit is 25.",
+      "additionalRule": "Migratory-bird permits, waterfowl permit, federal stamp and WMA rules apply as applicable. Possession limits are generally three times the daily limit except Snow Geese have no possession limit.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "species": "Common Snipe and Woodcock",
+      "method": "Migratory-Bird Methods",
+      "dates": "Common Snipe: Nov. 14, 2026–Feb. 28, 2027. Woodcock: Dec. 18, 2026–Jan. 31, 2027.",
+      "status": "2026–27 migratory-bird window",
+      "scopeAndExceptions": "Daily limits are 8 Common Snipe and 3 Woodcock. Shooting hours are one-half hour before sunrise to sunset.",
+      "additionalRule": "Hunters age 16 and older must obtain the South Carolina Migratory Bird Permit/HIP certification before hunting migratory game birds.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "licenseAndEducation": [
+    {
+      "topic": "Resident hunting license and big-game permit",
+      "fact": "South Carolina resident annual State Hunting License is $12; an annual Big Game Permit is $6 and is required with a hunting license and tags to hunt deer, bear or turkey. An annual WMA permit is $30.50 when hunting WMA lands.",
+      "sourceUrl": "https://www.dnr.sc.gov/licenses/pricingresident.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Nonresident hunting license and big-game permit",
+      "fact": "Nonresidents may buy an annual State Hunting License for $125, a 10-day license for $75 or a 3-day license for $40. An annual Big Game Permit is $100 and an annual WMA permit is $76.",
+      "sourceUrl": "https://www.dnr.sc.gov/licenses/pricingnonresident.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Tags and licenses by species",
+      "fact": "Deer, bear and turkey require special tags in addition to the hunting license and Big Game Permit; alligator requires a lottery permit/tag. Youth under 16 generally do not need a hunting license but still need required deer, bear and turkey tags except on designated youth days.",
+      "sourceUrl": "https://www.dnr.sc.gov/licenses/huntinglicense.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Hunter education cutoff",
+      "fact": "All residents and nonresidents born after June 30, 1979 must complete an SCDNR-approved hunter education course before obtaining a hunting license. SCDNR accepts certificates from other U.S. states and Canadian provinces.",
+      "sourceUrl": "https://www.dnr.sc.gov/education/hunted.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Apprentice and mentored hunting",
+      "fact": "An applicant without hunter education may obtain an annual Apprentice Hunting License, but the apprentice must be accompanied by a qualifying South Carolina-licensed hunter at least 21 who is not an apprentice and remains within uninterrupted visual and oral communication. The apprentice privilege is small-game only in the fee schedule.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Big-game tagging and reporting",
+      "fact": "All harvested big game—deer, turkey and bear—must be physically tagged as required and electronically reported through SC Game Check no later than midnight on the day of harvest, using the app, web, phone or text options.",
+      "sourceUrl": "https://dnr.sc.gov/harvestreport/",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "topic": "Migratory-bird permits",
+      "fact": "Hunters age 16 and older need a South Carolina Migratory Bird Permit/HIP certification for migratory game birds. Waterfowl hunters also need the state Migratory Waterfowl Permit and Federal Waterfowl Stamp, plus a WMA permit where applicable.",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "deadlines": [
+    {
+      "applicationOrDeadline": "Public alligator lottery application",
+      "dateOrStatus": "Applications are available June 1–July 15 each year; the 2026 application window is closed. The guide states July 15 as the annual deadline.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://www.dnr.sc.gov/hunting/lottery/index.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "Public deer lottery hunt application",
+      "dateOrStatus": "Online applications are available July 1–August 15 each year; the 2026 window is closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://www.dnr.sc.gov/hunting/lottery/index.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "Public quail, waterfowl and youth-waterfowl lottery applications",
+      "dateOrStatus": "Online applications are available September 1–October 15 each year; the 2026 window is closed.",
+      "relevantYear": "2026",
+      "sourceUrl": "https://www.dnr.sc.gov/hunting/lottery/index.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "Commercial fur harvest annual report",
+      "dateOrStatus": "Commercial fur harvest licensees must submit the annual harvest report by April 15 each year.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "applicationOrDeadline": "2027 spring turkey tags",
+      "dateOrStatus": "The guide says turkey tags are mailed beginning in early March and available over the counter at SCDNR regional offices in late February; a separate 2027 mailing date was not published in the sources checked.",
+      "relevantYear": "2027",
+      "sourceUrl": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "sources": [
+    {
+      "category": "Official 2026–27 regulations guide",
+      "title": "2026–2027 South Carolina Hunting & Fishing Laws and Regulations Guide",
+      "url": "https://www.dnr.sc.gov/regs/pdf/Regs2627.pdf",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Regulations index",
+      "title": "South Carolina Hunting and Fishing Laws and Regulations",
+      "url": "https://www.dnr.sc.gov/regulations.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "License requirements",
+      "title": "SC Hunting License",
+      "url": "https://www.dnr.sc.gov/licenses/huntinglicense.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Hunter education",
+      "title": "SCDNR Hunter Education",
+      "url": "https://www.dnr.sc.gov/education/hunted.html",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Harvest reporting",
+      "title": "SCDNR Hunting Harvest Information",
+      "url": "https://dnr.sc.gov/harvestreport/",
+      "verifiedOn": "2026-11-26"
+    },
+    {
+      "category": "Lottery hunts",
+      "title": "SCDNR Public Lottery Hunts",
+      "url": "https://www.dnr.sc.gov/hunting/lottery/index.html",
+      "verifiedOn": "2026-11-26"
+    }
+  ],
+  "unverifiedItems": [
+    "Individual WMA sub-schedules, special hunt dates, check-in requirements and property-specific limits can be more restrictive than the statewide guide tables; confirm the WMA listing before hunting.",
+    "SCDNR’s separate 2027 spring turkey tag mailing and any emergency or quota-closure notices were not independently published beyond the 2026–27 guide and agency pages checked.",
+    "Live lottery selection status, bear quota availability and license inventory are dynamic and should be checked in Go Outdoors South Carolina before applying or hunting."
+  ],
+  "gear": []
+}
